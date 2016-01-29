@@ -1,0 +1,138 @@
+body {
+  margin: 60px 0 0 0;
+  font-size: 24px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+  color: #444;
+}
+a {
+  color: #444;
+}
+a:hover {
+  color: #f09;
+}
+.ctc {
+  position: fixed;
+  background-color: #fff;
+  left: 0;
+  right: 0;
+  top: 0;
+  height: 60px;
+  box-shadow: 0 10px 12px rgba(0, 0, 0, 0.2);
+  border-bottom: 1px solid #999;
+  z-index: 100;
+}
+.ctc > .m {
+  width: 899px;
+  margin: 0 auto;
+  position: relative;
+  padding-left: 101px;
+  border-right: 1px solid #ebebeb;
+}
+.ctc > .m > .lg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 60px;
+  width: 100px;
+  background: url("http://www.kellegous.com/s/brand.svg") no-repeat top left;
+  background-size: 77px 55px;
+  background-position: 50% 50%;
+  border-left: 1px solid #ebebeb;
+  border-right: 1px solid #ebebeb;
+}
+.ctc > .m > .lg:hover {
+  background-color: #f9f9f9;
+}
+.ctc > .m > .ml {
+  display: inline-block;
+  height: 60px;
+  line-height: 60px;
+  font-size: 16px;
+  width: 80px;
+  padding: 0 10px;
+  text-decoration: none;
+  text-align: center;
+  color: #666;
+}
+.ctc > .m > .ml:hover {
+  color: #ff0099;
+  padding: 0 10px;
+  text-shadow: 0 1px 1px #fff;
+  background-color: #f9f9f9;
+}
+#main {
+  display: block;
+  width: 1000px;
+  margin: 0 auto;
+  padding: 50px 0;
+}
+footer {
+  border-top: 1px solid #ccc;
+}
+h1 {
+  margin: 0;
+  padding: 0;
+}
+.note > .head {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-color: #aa9;
+  min-height: 220px;
+  position: relative;
+}
+.note > .head a {
+  color: #fff;
+  text-decoration: none;
+}
+.note > .head a:hover {
+  color: #f09;
+}
+.note > .head > .navi {
+  position: absolute;
+  top: 10px;
+  left: 0;
+  right: 0;
+}
+.note > .head > .navi > div {
+  width: 1000px;
+  margin: 0 auto;
+  text-align: right;
+}
+.note > .head > .navi .prev,
+.note > .head > .navi .next {
+  font-size: 42px;
+}
+.note > .head > .info {
+  position: absolute;
+  bottom: 20px;
+  left: 0;
+  right: 0;
+}
+.note > .head > .info > h1 {
+  font: 400 64px/72px Abril Fatface;
+  color: #fff;
+  width: 1000px;
+  margin: 0 auto;
+}
+.note > .head > .info > .time {
+  color: #fff;
+  width: 1000px;
+  margin: 0 auto;
+  font-size: 20px;
+  /*text-shadow: 1px 1px 0px rgba(255,255,255,0.5);*/
+}
+.note .with-shadow {
+  box-shadow: inset 0 -50px 100px rgba(0, 0, 0, 0.4);
+}
+.note > .body {
+  width: 1000px;
+  margin: 50px auto;
+}
+.note > .body pre {
+  background-color: #eee;
+  padding: 20px 10px;
+  font-size: 18px;
+  overflow-x: auto;
+}
