@@ -1,9 +1,15 @@
 body {
   margin: 60px 0 0 0;
   font-size: 24px;
+  line-height: 1.6;
   font-family: 'Open Sans', sans-serif;
   font-weight: 300;
   color: #444;
+}
+@media only screen and (max-width: 450px) {
+  body {
+    font-size: 16px;
+  }
 }
 a {
   color: #444;
@@ -26,12 +32,27 @@ h1 {
   border-bottom: 1px solid #999;
   z-index: 100;
 }
+@media only screen (max-width: 1100px) {
+  .ctc {
+    padding: 0 20px;
+  }
+}
 .ctc > .m {
   width: 899px;
   margin: 0 auto;
   position: relative;
   padding-left: 101px;
   border-right: 1px solid #ebebeb;
+}
+@media only screen and (max-width: 1100px) {
+  .ctc > .m {
+    width: auto;
+  }
+}
+@media only screen and (max-width: 450px) {
+  .ctc > .m {
+    padding-left: 61px;
+  }
 }
 .ctc > .m > .lg {
   position: absolute;
@@ -47,6 +68,12 @@ h1 {
 }
 .ctc > .m > .lg:hover {
   background-color: #f9f9f9;
+}
+@media only screen and (max-width: 450px) {
+  .ctc > .m > .lg {
+    width: 60px;
+    background-size: 46px 33px;
+  }
 }
 .ctc > .m > .ml {
   display: inline-block;
@@ -65,11 +92,24 @@ h1 {
   text-shadow: 0 1px 1px #fff;
   background-color: #f9f9f9;
 }
+@media only screen and (max-width: 450px) {
+  .ctc > .m > .ml {
+    font-size: 14px;
+    width: 50px;
+    padding: 0 5px;
+  }
+}
 #main {
   display: block;
   width: 1000px;
   margin: 0 auto;
   padding: 50px 0;
+}
+@media only screen and (max-width: 1100px) {
+  #main {
+    width: auto;
+    margin: 0 20px;
+  }
 }
 footer {
   text-align: center;
@@ -87,6 +127,12 @@ a {
   width: 1000px;
   margin: 20px auto;
 }
+@media only screen and (max-width: 1100px) {
+  #notes > .list {
+    width: auto;
+    margin: 20px;
+  }
+}
 #notes > .list > .note {
   padding: 10px 0;
 }
@@ -100,6 +146,19 @@ h1 {
   width: 1000px;
   margin: 0 auto;
   color: #fff;
-  font: 400 64px/72px Abril Fatface;
+  font-weight: 400;
+  font-size: 64px;
+  font-family: Abril Fatface;
   line-height: 275px;
+}
+@media only screen and (max-width: 1100px) {
+  h1 {
+    width: auto;
+    margin: 0 20px;
+  }
+}
+@media only screen and (max-width: 450px) {
+  h1 {
+    font-size: 48px;
+  }
 }

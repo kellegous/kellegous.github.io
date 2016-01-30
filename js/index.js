@@ -5,7 +5,7 @@ var windowDidResize = function() {
 		var $el = $(el),
 			ar = $el.data('width') / $el.data('height'),
 			w = $el.width();
-		$el.css('height', w / ar);
+		// $el.css('height', w / ar);
 	});
 };
 
