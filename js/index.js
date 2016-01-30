@@ -12,4 +12,11 @@ var windowDidResize = function() {
 $(window).on('resize', windowDidResize);
 windowDidResize();
 
+$('#sig').on('click', function(e) {
+	e.preventDefault();
+    $('body,html').stop().animate({
+      scrollTop: 0
+    }, 500);
+});
+
 })();
