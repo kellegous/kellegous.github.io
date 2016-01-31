@@ -1,0 +1,36 @@
+#!/usr/bin/env python3
+
+import os
+import subprocess
+import sys
+
+def start_grunt(root):
+	return subprocess.Popen(['grunt', 'watch'], cwd=root)
+
+def start_hugo(root):
+	return subprocess.Popen([
+		'hugo',
+		'server',
+		'--source=src',
+		'--buildDrafts'], cwd=root)
+
+def main():
+	root = os.path.abspath(
+		os.path.join(os.path.dirname(__file__), '..'))
+
+	procs = [
+		start_hugo(root),
+		start_grunt(root),
+	]
+
+	try:
+		return max([proc.wait() for proc in procs])
+	except KeyboardInterrupt:
+		for proc in procs:
+			proc.kill()
+		return 0
+
+	return 0
+
+if __name__ == '__main__':
+	sys.exit(main())

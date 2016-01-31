@@ -1,0 +1,8 @@
+src/themes
+src/static/css
+node_modules
+bin/__pycache__
+tmp
+bin/*.pyc
+pub
+*.sublime-workspace

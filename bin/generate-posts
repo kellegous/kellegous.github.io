@@ -1,0 +1,67 @@
+#!/usr/bin/env python2.7
+
+import datetime
+import lipsum
+import optparse
+import os
+import random
+import re
+import sys
+
+ISO339 = '%Y-%m-%dT%H:%M:%SZ'
+
+def create_generator():
+	root = os.path.dirname(__file__)
+	gen = lipsum.generator()
+
+	with open(os.path.join(root, 'sample.txt'), 'r') as r:
+		gen.set_sample(r.read())
+
+	with open(os.path.join(root, 'dictionary.txt'), 'r') as r:
+		gen.set_dictionary(r.read())
+
+	return gen
+
+def timeseq(start, end):
+	start = start + datetime.timedelta(hours=random.randint(2, 24*14))
+	while start < end:
+		yield start
+		start = start + datetime.timedelta(hours=random.randint(2, 24*14))
+
+def generate_post(dst, gen, time, n):
+	def slug(title):
+		return '-'.join(re.sub(r'[^\s\w]', '', title).lower().split(' ')[:5])
+	title = gen.generate_sentence()
+	slug = slug(title)
+	dest = os.path.join(dst, '%s.md' % slug)
+
+	with open(dest, 'w') as w:
+		w.write('+++\n')
+		w.write('date = "%s"\n' % time.strftime(ISO339))
+		w.write('title = "%s"\n' % title)
+		w.write('slug = "%s"\n' % slug)
+		w.write('\n')
+		w.write('+++\n')
+		for i in range(n):
+			w.write(gen.generate_paragraph())
+			w.write('\n\n')
+
+def main():
+	parser = optparse.OptionParser()
+	parser.add_option('--start', dest='start', default='2012-01-01T00:00:00Z', help='')
+	parser.add_option('--end', dest='end', default='2016-01-01T00:00:00Z', help='')
+	parser.add_option('--dest', dest='dest', default='xxx', help='')
+	opts, args = parser.parse_args()
+
+	if not os.path.exists(opts.dest):
+		os.makedirs(opts.dest)
+
+	times = timeseq(datetime.datetime.strptime(opts.start, ISO339),
+		datetime.datetime.strptime(opts.end, ISO339))
+
+	gen = create_generator()
+	for t in times:
+		generate_post(opts.dest, gen, t, random.randint(1, 10))
+
+if __name__ == '__main__':
+	sys.exit(main())

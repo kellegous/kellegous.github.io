@@ -1,0 +1,10 @@
+baseurl = "http://notes.kellegous.com/"
+languageCode = "en-us"
+title = "Notes"
+[permalinks]
+	note="/:section/:year/:month/:slug"
+[params]
+head_color = "#2A2C39"
+head_shadow = true
+head_width = 800
+head_height = 200

@@ -1,0 +1,22 @@
+{{ $.Scratch.Add "stylesheet" "notes.css"}}
+
+{{ partial "head.html" . }}
+
+<section id="notes">
+	{{ range .Data.Pages.GroupByDate "2006" }}
+		<div class="year">
+			<h1>{{ .Key }}</h1>
+		</div>
+		<div class="list">
+			{{ range .Pages }}
+				<div class="note">
+					<a href="{{ .Permalink }}">
+						{{ .Title }}
+					</a>
+				</div>
+			{{ end }}
+		</div>
+	{{ end }}
+</section>
+
+{{ partial "foot.html" . }}

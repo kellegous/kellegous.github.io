@@ -1,0 +1,6 @@
+{{ partial "head.html" . }}
+
+{{ range .Data.Pages }}
+	{{ .Title }}
+{{ end }}
+{{ partial "foot.html" . }}

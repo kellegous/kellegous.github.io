@@ -1,0 +1,11 @@
+{{ $.Scratch.Add "stylesheet" "about.css" }}
+
+{{ partial "head.html" . }}
+
+<section id="about">
+	<div id="main">
+	{{ .Content }}
+	</div>
+</section>
+
+{{ partial "foot.html" . }}

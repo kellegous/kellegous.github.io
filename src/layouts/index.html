@@ -1,0 +1,9 @@
+{{ partial "head.html" . }}
+
+{{ range first 10 (where .Site.Pages "Section" "note") }}
+	<div>
+	{{ .Render "summary" }}
+	</div>
+{{ end }}
+
+{{ partial "foot.html" . }}

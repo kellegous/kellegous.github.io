@@ -1,0 +1,22 @@
+<div class="note">
+	<div class="head {{ if .Param "head_shadow" }}with-shadow{{end}}"
+			style="
+				{{ if .Param "head_image" }}
+				background-image:url('{{ .Param "head_image" }}');
+				{{ end }}
+				background-color: {{ .Param "head_color" }};"
+			data-width="{{ .Param "head_width" }}"
+			data-height="{{ .Param "head_height" }}" >
+		<div class="info">
+			<div class="time">
+				<a href="{{ .Permalink }}">{{ .Date.Format "Jan 2, 2006" }}</a>
+			</div>
+			<h1>
+				<a href="{{ .Permalink }}">{{ .Title }}</a>
+			</h1>
+		</div>
+	</div>
+	<div class="body">
+		{{ .Content }}
+	</div>
+</div>

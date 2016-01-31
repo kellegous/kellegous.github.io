@@ -1,0 +1,57 @@
+#!/usr/bin/env python
+
+import os
+import shutil
+import subprocess
+import sys
+import time
+
+def clean(dir):
+	for path in os.listdir(dir):
+		if path == '.git':
+			continue
+		path = os.path.join(dir, path)
+		if os.path.isdir(path) and not os.path.islink(path):
+			shutil.rmtree(path)
+		else:
+			os.remove(path)
+	return True
+
+def clone(url, dst):
+	return subprocess.call([ 'git', 'clone', url, dst ]) == 0
+
+def generate(src, dst):
+	return subprocess.call(['hugo', '--source=%s' % src, '--destination=%s' % dst]) == 0
+
+def push(dir, msg):
+	if subprocess.call(['git', 'add', '-A', '.'], cwd=dir) != 0:
+		return False
+
+	if subprocess.call(['git', 'commit', '-a', '-m', msg], cwd=dir) != 0:
+		return False
+
+	return subprocess.call(['git', 'push'], cwd=dir) == 0
+
+def main():
+	repo = 'git@github.com:kellegous/kellegous.github.io.git'
+
+	root = os.path.abspath(
+		os.path.join(os.path.dirname(__file__), '..'))
+
+	pubdir = os.path.join(root, 'pub')
+	if not os.path.exists(pubdir):
+		if not clone(repo, pubdir):
+			return 1
+
+	if not clean(pubdir):
+		return 1
+
+	if not generate(os.path.join(root, 'src'), os.path.join(root, 'pub')):
+		return 1
+
+	msg = 'auto-published at %s' % time.strftime('%Y.%m.%d %H:%M:%S %Z')
+	if not push(pubdir, msg):
+		return 1
+
+if __name__ == '__main__':
+	sys.exit(main())

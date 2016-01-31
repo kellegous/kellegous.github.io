@@ -1,0 +1,33 @@
+{{ .Scratch.Add "stylesheet" "note.css" }}
+{{ partial "head.html" . }}
+
+<div class="note">
+	<div class="head {{ if .Param "head_shadow" }}with-shadow{{end}}"
+			style="
+				{{ if .Param "head_image" }}
+				background-image:url('{{ .Param "head_image" }}');
+				{{ end }}
+				background-color: {{ .Param "head_color" }};"
+			data-width="{{ .Param "head_width" }}"
+			data-height="{{ .Param "head_height" }}" >
+		<div class="navi">
+			<div>
+				{{ if .PrevInSection }}
+				<a class="prev material-icons" href="{{ .PrevInSection.Permalink }}">navigate_before</a>
+				{{ end }}
+				{{ if .NextInSection }}
+				<a class="next material-icons" href="{{ .NextInSection.Permalink }}">navigate_next</a>
+				{{ end }}
+			</div>
+		</div>
+		<div class="info">
+			<div class="time">{{ .Date.Format "Jan 2, 2006" }}</div>
+			<h1>{{ .Title }}</h1>
+		</div>
+	</div>
+	<div class="body">
+		{{ .Content }}
+	</div>
+</div>
+
+{{ partial "foot.html" . }}
