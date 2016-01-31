@@ -50,7 +50,7 @@ def main():
 	parser = optparse.OptionParser()
 	parser.add_option('--start', dest='start', default='2012-01-01T00:00:00Z', help='')
 	parser.add_option('--end', dest='end', default='2016-01-01T00:00:00Z', help='')
-	parser.add_option('--dest', dest='dest', default='xxx', help='')
+	parser.add_option('--dest', dest='dest', default='src/content/note', help='')
 	opts, args = parser.parse_args()
 
 	if not os.path.exists(opts.dest):
