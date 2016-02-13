@@ -60,7 +60,7 @@ day. When you are fully immersed, you begin to not see Java&rsquo;s quirks. But 
 you take a break and come back, they are all (once again) front and center.</p>
 
 <p>My most recent rediscovered quirk is the curious case of why a combination of
-generics and variadic methods requires the use of @SafeVarargs. I suspect the
+generics and variadic methods requires the use of <a href="https://docs.oracle.com/javase/7/docs/api/java/lang/SafeVarargs.html">@SafeVarargs</a>. I suspect the
 most confusing thing about this particular quirk is the wording of the common
 warning that is emitted. My suspicions are backed up by the number of
 stack overflow questions that reference warning directly. So let&rsquo;s take a look
@@ -117,7 +117,7 @@ there is:</p>
 
 <p>Notice that we do some unmistakably bad things here, but the compiler doesn&rsquo;t
 offer any warnings. At runtime, though, this is likely to throw either an
-ArrayStoreException or a ClassCastException depending on the types involved.
+<a href="https://docs.oracle.com/javase/7/docs/api/java/lang/ArrayStoreException.html">ArrayStoreException</a> or a <a href="https://docs.oracle.com/javase/7/docs/api/java/lang/ClassCastException.html">ClassCastException</a> depending on the types involved.
 There are also cases where this code doesn&rsquo;t show an exception at all.</p>
 
 <pre class="prettyprint linenums"><code><!--
@@ -149,7 +149,8 @@ public static void main(String[] args) {
 }
 </code></pre>
 
-<p>It&rsquo;s now a little clearer why you end up with an ArrayStoreException. I remember
+<p>It&rsquo;s now a little clearer why you end up with an <a href="https://docs.oracle.com/javase/7/docs/api/java/lang/ArrayStoreException.html">ArrayStoreException</a>.
+I remember
 chatting with some of the folks who worked on Java and the JVM and they always
 bemoaned the fact that seemingly independent language features tended to interact
 with each other in so many unpleasant ways. I imagine this is exactly the kind

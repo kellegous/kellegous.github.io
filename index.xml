@@ -23,7 +23,7 @@ day. When you are fully immersed, you begin to not see Java&amp;rsquo;s quirks. 
 you take a break and come back, they are all (once again) front and center.&lt;/p&gt;
 
 &lt;p&gt;My most recent rediscovered quirk is the curious case of why a combination of
-generics and variadic methods requires the use of @SafeVarargs. I suspect the
+generics and variadic methods requires the use of &lt;a href=&#34;https://docs.oracle.com/javase/7/docs/api/java/lang/SafeVarargs.html&#34;&gt;@SafeVarargs&lt;/a&gt;. I suspect the
 most confusing thing about this particular quirk is the wording of the common
 warning that is emitted. My suspicions are backed up by the number of
 stack overflow questions that reference warning directly. So let&amp;rsquo;s take a look
@@ -80,7 +80,7 @@ there is:&lt;/p&gt;
 
 &lt;p&gt;Notice that we do some unmistakably bad things here, but the compiler doesn&amp;rsquo;t
 offer any warnings. At runtime, though, this is likely to throw either an
-ArrayStoreException or a ClassCastException depending on the types involved.
+&lt;a href=&#34;https://docs.oracle.com/javase/7/docs/api/java/lang/ArrayStoreException.html&#34;&gt;ArrayStoreException&lt;/a&gt; or a &lt;a href=&#34;https://docs.oracle.com/javase/7/docs/api/java/lang/ClassCastException.html&#34;&gt;ClassCastException&lt;/a&gt; depending on the types involved.
 There are also cases where this code doesn&amp;rsquo;t show an exception at all.&lt;/p&gt;
 
 &lt;pre class=&#34;prettyprint linenums&#34;&gt;&lt;code&gt;&lt;!--
@@ -112,7 +112,8 @@ public static void main(String[] args) {
 }
 &lt;/code&gt;&lt;/pre&gt;
 
-&lt;p&gt;It&amp;rsquo;s now a little clearer why you end up with an ArrayStoreException. I remember
+&lt;p&gt;It&amp;rsquo;s now a little clearer why you end up with an &lt;a href=&#34;https://docs.oracle.com/javase/7/docs/api/java/lang/ArrayStoreException.html&#34;&gt;ArrayStoreException&lt;/a&gt;.
+I remember
 chatting with some of the folks who worked on Java and the JVM and they always
 bemoaned the fact that seemingly independent language features tended to interact
 with each other in so many unpleasant ways. I imagine this is exactly the kind
