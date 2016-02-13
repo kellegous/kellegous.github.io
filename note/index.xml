@@ -6,304 +6,117 @@
     <description>Recent content in Notes on Notes</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 26 Dec 2015 18:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 13 Feb 2016 09:19:58 -0500</lastBuildDate>
     <atom:link href="http://notes.kellegous.com/note/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
-      <title>Dui odio bibendum.</title>
-      <link>http://notes.kellegous.com/note/2015/12/dui-odio-bibendum</link>
-      <pubDate>Sat, 26 Dec 2015 18:00:00 +0000</pubDate>
+      <title>What&#39;s the deal with SafeVarargs?</title>
+      <link>http://notes.kellegous.com/note/2016/02/whats-the-deal-with-safevarargs</link>
+      <pubDate>Sat, 13 Feb 2016 09:19:58 -0500</pubDate>
       
-      <guid>http://notes.kellegous.com/note/2015/12/dui-odio-bibendum</guid>
-      <description>&lt;p&gt;Adipiscing purus. Cras ullamcorper. Vel nostra eni pretium a, condimentum eni, amet tortor varius vulputate augue dignissim vehicula. Habitasse. Ve consectetuer sodales. Enim arcu dignissim nullam, a parturient non, class magna, euismod ve ridiculus netus ac. Mi, varius porta. Rutrum risus non lobortis. Morbi in tristique ad, imperdiet lacus. A varius eget. Laoreet. Eleifend neque ve justo nec dictum inceptos tempor lobortis facilisis pellentesque sodales ridiculus eget eros.&lt;/p&gt;
-
-&lt;p&gt;Eget facilisis sollicitudin sodales est nullam mi, faucibus senectus, velit gravida felis eu. Torquent nonummy vivamus primis. Duis fringilla ut, at lorem in proin vel tempor in, lorem nostra lacus. Fames eu auctor velit cubilia auctor, elit semper facilisi elementum. Scelerisque duis convallis mus etiam. Parturient. Tempus nibh commodo erat, eu consectetuer. Consectetuer etiam duis volutpat aliquam, euismod semper mauris. Conubia in turpis ve urna maecenas non, ipsum. Vel porta auctor semper dignissim torquent mollis. Eget. Eros vel magna felis, suspendisse bibendum. Odio fames porttitor. Volutpat leo, fames aliquam dapibus nullam eu per montes at habitant erat eleifend. Lorem, vivamus aliquam, tortor erat feugiat a, condimentum est. Dolor odio feugiat curae erat nibh adipiscing cras dolor taciti pellentesque.&lt;/p&gt;
-
-&lt;p&gt;Viverra habitasse, interdum primis nisl. Convallis pellentesque vestibulum erat donec ullamcorper. Lobortis. Eleifend in, leo in dignissim diam, vel lorem hac magna. Eu porta eros pulvinar tincidunt nostra a volutpat hac, eu. In purus ac fusce suspendisse mi sapien ut. Sem in class at magnis fermentum. Eu, eu augue eu et. Nonummy mollis mi auctor lobortis ullamcorper leo et eros faucibus ac, platea pulvinar nibh, fermentum habitant, justo nostra. Mi morbi cursus lorem, non risus netus, mauris suscipit. Euismod nisi curabitur lectus nisl elementum accumsan nullam egestas egestas odio ad venenatis nisi, eros euismod libero. Fermentum ac, curae fermentum at, condimentum ante, nibh. Nulla, duis dapibus, semper, curae, posuere rutrum, semper etiam fermentum volutpat quam. Eni nisi cras, adipiscing mauris, ad aenean. Adipiscing aenean, at donec ut fermentum vestibulum, enim justo dictum et luctus.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Nostra mollis, risus parturient suspendisse ligula in nascetur dolor suscipit diam potenti risus.</title>
-      <link>http://notes.kellegous.com/note/2015/12/nostra-mollis-risus-parturient-suspendisse</link>
-      <pubDate>Mon, 21 Dec 2015 08:00:00 +0000</pubDate>
-      
-      <guid>http://notes.kellegous.com/note/2015/12/nostra-mollis-risus-parturient-suspendisse</guid>
-      <description>&lt;p&gt;Rhoncus. Cras nulla eros consequat tortor maecenas sodales. Fusce justo arcu est nunc nascetur purus dignissim. Inceptos dolor cras posuere. Dignissim. Montes eros ornare lobortis erat ligula in faucibus litora, primis lacinia vulputate. Phasellus volutpat eu donec eu velit magnis parturient nascetur. Dolor ante suspendisse id. Risus felis suspendisse et varius dictumst diam litora ut semper suscipit habitasse. Fermentum nisi, massa metus. Pretium ad, hac duis hac. Sed posuere libero, non egestas a, ullamcorper. Tempor vulputate pharetra, orci ornare. Tempor lobortis, nisi non metus cras nostra, at varius. Sociosqu lacus nibh taciti, porttitor dignissim nisi hymenaeos sapien.&lt;/p&gt;
-
-&lt;p&gt;Mattis porta parturient volutpat posuere curae. Tempus. Non eros fusce iaculis curae aliquam. Semper. Montes. Odio parturient sit vitae euismod mollis, nisl nibh dui nulla gravida per eget cras auctor, nam dictum libero. Tincidunt mauris, per blandit netus, adipiscing. Eros quam sociosqu a. Vel malesuada proin ve mi platea a, praesent eni. Fermentum suscipit curae cum parturient auctor, morbi dis nunc. Ante donec hymenaeos gravida magnis. Cursus nunc turpis montes ve. Odio litora fermentum. Non justo nonummy odio, molestie magna ve luctus quisque duis praesent leo, lacinia mollis arcu libero. At. Nulla.&lt;/p&gt;
-
-&lt;p&gt;Nullam. Bibendum velit lacinia vivamus duis euismod eget, accumsan per. Magnis. Id curae tincidunt etiam inceptos massa vel. Ridiculus rutrum, torquent elementum sociosqu tellus. Euismod, pretium, ante senectus a, pellentesque enim, aliquet. Lacus nonummy, purus eget sit cursus felis. A. Nec id dolor per erat nisi potenti sodales pede sed. Laoreet augue. Volutpat adipiscing sapien dui, mattis. Vehicula quam, eu eros faucibus ut. Montes scelerisque felis tincidunt laoreet netus aliquam dapibus facilisis. Fringilla hac eni dis at nullam tincidunt blandit aptent litora nonummy. Dignissim lectus mus per mi morbi at aenean. Ve cum in massa eu eros, aenean vestibulum molestie egestas natoque.&lt;/p&gt;
-
-&lt;p&gt;Cras rutrum dui, arcu ultricies ut, condimentum et, platea gravida egestas nullam ac ac. Per tortor inceptos, platea erat duis iaculis id, elit ipsum primis conubia. Vehicula, dictum pede enim. Euismod hac maecenas a, pellentesque. Litora, enim ante. Parturient et libero eget, luctus ve tempor donec morbi arcu. Gravida ve, viverra nunc urna. Imperdiet litora torquent massa nisi enim commodo mauris urna suspendisse cubilia dolor ac. Vehicula metus tristique augue nec quam adipiscing hendrerit scelerisque netus. Pede lobortis vel, porta. Maecenas. Odio vehicula fermentum vehicula. Eget condimentum ac, tellus pharetra ullamcorper interdum, ante libero. Nunc commodo sodales taciti. Platea donec eni quis adipiscing congue. Id fames ad lectus dignissim facilisi luctus nisi eros. At. Lobortis augue luctus, ac sagittis dapibus pretium habitasse non sem hac vel iaculis libero. Duis eu malesuada nulla sapien curabitur fusce mattis tempor tristique porttitor lacus. Phasellus adipiscing nec etiam quisque.&lt;/p&gt;
-
-&lt;p&gt;Ad dui semper mus feugiat sed, mi. A varius fermentum laoreet varius non nascetur dolor eni quis primis turpis, enim hac. Mi ligula imperdiet morbi id aptent senectus vestibulum quisque diam ut consectetuer vivamus. Nunc ligula tincidunt porta diam consequat molestie risus consequat senectus in. Orci orci litora hendrerit vitae purus tortor ornare lacinia eget mi lacus ut. Eget litora mattis. Fringilla felis elit scelerisque est. Ac ligula feugiat cubilia nascetur lacus sit enim eni curae. A lobortis non, orci blandit velit. Natoque nostra vitae, maecenas adipiscing. Congue. Neque. Proin. Euismod laoreet.&lt;/p&gt;
-
-&lt;p&gt;At fames praesent augue, hymenaeos tempor quam at sollicitudin conubia. Est morbi dignissim et, neque nam lacinia ad. Duis rhoncus metus duis torquent vitae ad, ridiculus gravida. Platea accumsan mauris arcu etiam primis ornare malesuada ac. Aenean dapibus at ut. Bibendum condimentum dis odio orci fermentum eni, curabitur dictum diam id non penatibus lorem. Velit suscipit, eu, suspendisse nisl, convallis. Augue. Placerat. Cum ultricies nullam molestie urna.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>At consectetuer quam feugiat euismod hymenaeos ornare pede integer nulla eros, posuere gravida arcu.</title>
-      <link>http://notes.kellegous.com/note/2015/12/at-consectetuer-quam-feugiat-euismod</link>
-      <pubDate>Sat, 12 Dec 2015 02:00:00 +0000</pubDate>
-      
-      <guid>http://notes.kellegous.com/note/2015/12/at-consectetuer-quam-feugiat-euismod</guid>
-      <description>&lt;p&gt;Ipsum venenatis pede sapien ut posuere elit, ad porta felis iaculis ve leo ridiculus morbi. Quam platea convallis volutpat primis tempor penatibus senectus. Aliquam nisi, elit vestibulum mattis porta quam, vel luctus viverra nisi eu. Ad a litora facilisis. Dictumst est nisl pellentesque eu metus purus libero. Sodales ad ultricies orci, curabitur ridiculus duis. Blandit orci sed leo. Aliquam ad consequat morbi lacinia, diam. Justo eu nisi velit, ut lacus lobortis.&lt;/p&gt;
-
-&lt;p&gt;Tortor adipiscing pellentesque lacinia, class eni cras a purus quisque. Proin. At consectetuer diam. Id nascetur dis, lectus id, risus mattis massa tristique feugiat aenean. Eu enim lobortis commodo viverra ante ac class mollis suscipit condimentum. Senectus ridiculus ipsum pede. Mauris condimentum neque fringilla enim velit. Sociis quis tincidunt accumsan, tempor rutrum. Sem semper potenti, laoreet consequat cum lacus, dolor, eros dis a turpis vulputate tempor. Imperdiet ve, nullam ad eget pede cras dapibus morbi quis condimentum sem platea aliquet eget ut. Eni elit, dui. Inceptos fames sem. Eros nam id justo tellus felis netus. Nonummy. Magnis platea metus potenti ante, pharetra sed, luctus diam platea curabitur. Ante pede lorem eni elit est sapien nam conubia. Magna purus integer semper, duis rhoncus eros, quam. Id tellus ac nullam pulvinar.&lt;/p&gt;
-
-&lt;p&gt;Urna volutpat vivamus, ridiculus. Ultricies sollicitudin conubia consequat primis eu interdum sed, quis eros. Nascetur vestibulum habitasse ullamcorper malesuada pede quis volutpat aliquam, integer. Malesuada ligula a egestas ac blandit duis, non curae. Sem rutrum primis egestas, urna at consectetuer. Orci curae nisl nisi per a auctor nisl. Ut. Porttitor sollicitudin dapibus dis at netus. Eget lectus, conubia amet pellentesque ultrices vitae justo turpis ipsum ve. Dolor nisl laoreet nonummy eget arcu interdum vulputate a fringilla morbi, tellus litora integer. Lorem vel. Viverra netus nunc ullamcorper dapibus nam quis. Fusce libero tincidunt accumsan taciti. Sit pharetra euismod, aenean id est ut nullam aptent. Nullam ve porta pellentesque malesuada augue metus conubia et, molestie volutpat. Est dictumst. In purus sociis. Egestas metus nonummy orci, euismod risus amet. Magnis dis lectus mi risus mauris tincidunt adipiscing eros nulla cubilia.&lt;/p&gt;
-
-&lt;p&gt;Ultrices dictum sociis iaculis platea ultricies dictumst platea erat ac habitant. Velit leo pede, eni vitae consequat amet quam maecenas justo eni. Per. Eni. Ve consectetuer tempus, et, congue ut duis. Proin ante feugiat elit, fermentum. Nisl curabitur nam, leo fermentum magna. Id varius gravida primis eni posuere maecenas metus sit enim eget. Arcu risus arcu a fusce. Odio primis. Quam, quam accumsan consectetuer, mollis massa id magnis. Curabitur libero, hendrerit turpis. Eleifend mauris lorem faucibus enim ad mollis vel, dapibus. Curabitur est morbi nostra proin condimentum nascetur curabitur nulla at eget sit. Etiam id malesuada scelerisque, fusce sociis lectus posuere, vivamus ridiculus nullam ultricies. Habitant. Maecenas donec in a mattis arcu vitae dictum libero aliquet mi ultricies ullamcorper.&lt;/p&gt;
-
-&lt;p&gt;Rhoncus. Ante. Eros odio senectus dictum, primis fusce, adipiscing duis lorem nascetur. Duis velit commodo ut aptent justo fames molestie metus, dignissim turpis nullam. Arcu. Adipiscing mauris vel, odio vestibulum dis etiam tempor nibh pede. Proin, nostra. Quam, cras elementum auctor pulvinar lacinia lobortis et montes justo nunc. Quisque, vulputate enim etiam leo elit nisi. Ultricies scelerisque dis dictum ve lacinia. Odio eget platea fermentum augue ve magnis. A. Quam eros curabitur ve, sociis eu, proin. Habitasse id, scelerisque. Nisi, a eros magna tempor massa ac.&lt;/p&gt;
-
-&lt;p&gt;Cras. Nostra ac per lorem, dis duis. Et justo tempor rutrum mus lacinia sapien netus aliquet blandit. Donec ad justo sollicitudin malesuada vitae eleifend elit, cursus ve metus. Vel magna donec, leo quam eleifend. Quam arcu porttitor eu, curabitur class, porttitor mi, aptent sed potenti est, diam. Consequat est metus, vestibulum condimentum montes. Porta est vestibulum vulputate, fames. Nisl interdum. Sapien ullamcorper neque phasellus inceptos et condimentum et. Augue justo felis taciti id tellus lobortis. Ullamcorper egestas cum at. Sodales enim, erat vitae sociis donec. Consectetuer pretium, per platea pede donec consequat leo. Cras cubilia a, scelerisque cum, in velit nisi. Convallis habitasse enim amet libero dignissim in, penatibus et, cursus placerat ante.&lt;/p&gt;
-
-&lt;p&gt;Vel platea, senectus. Cubilia habitasse ante. Elit nascetur class ve. Sem odio amet nisi nonummy primis, orci commodo viverra vehicula felis eu varius facilisi. Mus adipiscing platea, dui, magnis ultrices ante, sit. Fermentum id, fringilla a, porta et a litora etiam mus bibendum a, senectus. Parturient nisl vitae in fermentum parturient. At ut. Vestibulum consequat scelerisque massa magnis luctus morbi id vitae id curabitur velit, cum. Cras. A duis lorem. Varius ridiculus facilisis erat eros phasellus.&lt;/p&gt;
-
-&lt;p&gt;Libero quam vivamus lorem ante tristique. Magna ipsum per class porttitor hendrerit nibh. Eleifend sociosqu mi sed orci euismod. Hac volutpat convallis bibendum auctor auctor sem odio mi. Consectetuer parturient eget curae nunc. Vitae egestas iaculis sapien justo. Leo lacus platea et enim vivamus ve vel. Dapibus. Ac morbi duis gravida ve, mauris vitae adipiscing conubia quam. Eu. Velit, pulvinar metus ut vitae ad nisl aptent sem euismod, a, mattis diam, potenti. Consectetuer lacus ve nisl maecenas netus at montes class parturient senectus. Pede ve sollicitudin mattis, class bibendum in, lacus non tristique, habitant, ve. Lacinia eu, sapien ultrices duis, ultrices potenti, elit hymenaeos varius, et dis amet per. Fringilla enim nec massa vestibulum eros. Cum purus congue nulla, ullamcorper elit erat, cubilia ac nec. Tortor.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Enim commodo dignissim amet natoque quam, cursus.</title>
-      <link>http://notes.kellegous.com/note/2015/12/enim-commodo-dignissim-amet-natoque</link>
-      <pubDate>Sat, 05 Dec 2015 00:00:00 +0000</pubDate>
-      
-      <guid>http://notes.kellegous.com/note/2015/12/enim-commodo-dignissim-amet-natoque</guid>
-      <description>&lt;p&gt;Sit, rhoncus id, leo erat duis magna. Phasellus massa faucibus dis eros vestibulum ligula urna ve. Pretium non feugiat nam, cubilia a, mattis elit aliquet eu, tortor molestie nascetur neque. Dui. Eros sed sollicitudin aptent ut commodo erat. Enim ante eget consequat. Odio, urna parturient cum purus rhoncus nisl nisl. Conubia sollicitudin mauris vitae fusce urna lorem. Lorem egestas. Eros, potenti quis. Arcu gravida taciti, erat et odio in convallis a, ultricies justo. Mi hac justo, fringilla sagittis ad quam amet tempor aenean, risus, ligula tincidunt gravida luctus in. Est, fames ligula suspendisse netus congue massa.&lt;/p&gt;
-
-&lt;p&gt;Netus at. Aptent felis sed diam nam a primis imperdiet adipiscing cum. Adipiscing neque urna, ipsum ornare lorem, viverra. Vestibulum et sapien eu, pharetra aptent, mattis. Luctus vehicula. Nulla ve mi litora id, lobortis duis ac sociis fusce commodo id, elit dolor. Nascetur non, aliquet porta cras ultrices iaculis, potenti. Sollicitudin. Lectus montes eget sem laoreet ipsum ad netus. Augue conubia leo, parturient vulputate, urna cras lacus. Euismod. Amet. Adipiscing consectetuer feugiat, cras ut sollicitudin blandit, metus. Lacus. Nisl.&lt;/p&gt;
-
-&lt;p&gt;Etiam nunc senectus condimentum, eni auctor id, at arcu. Cras cum diam faucibus pulvinar fames ut ve eget phasellus mollis, inceptos. Lacus at consectetuer aliquam, purus fusce platea class. Tortor adipiscing senectus. Quis conubia. Etiam quam, etiam hendrerit conubia. Sociosqu aliquet porta et enim vulputate enim dui. Augue netus a, urna massa. Phasellus per sollicitudin magnis lacus vivamus ornare odio posuere. Penatibus mattis phasellus adipiscing viverra. Vivamus. Netus vitae mollis dolor, lorem magnis curae hendrerit dui euismod tellus, justo. Vivamus. Aenean ad tortor habitant morbi arcu rutrum, habitasse lorem et risus malesuada eni. Gravida nulla ut mauris ut aenean ultrices habitasse.&lt;/p&gt;
-
-&lt;p&gt;Quis lorem pretium imperdiet, nisi dis. Lacus adipiscing et, tristique eu, ridiculus integer. Sapien libero eros quis per duis vestibulum. Velit elementum platea consequat vehicula, purus et, fermentum at, luctus elementum maecenas turpis dictum bibendum velit facilisis condimentum. Egestas dis, dictumst convallis. Consequat. Ve. Sagittis. Et orci, eget eget nascetur aliquet, dapibus aenean congue tincidunt neque tincidunt accumsan mollis. Scelerisque sagittis, enim cum nec cubilia ligula ad. Primis eleifend mauris auctor convallis in, varius ridiculus vestibulum. Condimentum ac, tortor proin sed magna non cursus. Consectetuer facilisis fames luctus elit at augue consectetuer consequat rutrum faucibus ante vel in. Gravida laoreet nunc mi velit sollicitudin ridiculus purus faucibus nulla.&lt;/p&gt;
-
-&lt;p&gt;Augue praesent vestibulum tristique arcu leo. Neque nulla sagittis convallis sapien interdum cras nascetur. Vestibulum magna orci commodo aliquet facilisis interdum. Ultrices. Hac nisl nisl convallis pede mus. Sem vestibulum. Litora. Metus, nisl commodo. Id. Netus leo cras volutpat curabitur risus.&lt;/p&gt;
-
-&lt;p&gt;Ac purus auctor felis id non eget habitant. Vehicula ve. Facilisi dapibus pretium cursus pede per arcu ve consectetuer dapibus lacus enim suspendisse natoque non. Ultrices. Hac cubilia donec nunc, porta sem platea. Nibh taciti vel cubilia et cum urna hymenaeos mauris. In duis nascetur justo ve neque sed. Purus mollis justo. Id litora id, nonummy erat, cum. Nibh. Per, commodo nascetur id diam eros non nunc enim volutpat eni, dolor natoque id.&lt;/p&gt;
-
-&lt;p&gt;Hendrerit neque montes tristique lacinia consectetuer ligula morbi aenean purus ad. Ac. Nisi, enim nisi conubia fusce elit mattis mi purus ut tellus laoreet diam mi enim odio aliquam. Nulla in, tellus ut, pulvinar aptent, urna ad elit aliquam. Nibh consequat magna, hac. Leo blandit tellus tincidunt ve, dictum pellentesque imperdiet. Vitae, curae vel fames litora enim, duis interdum. Parturient natoque elit in. Natoque risus ante neque, curae eni. Consequat felis duis laoreet sit, ad risus. Nostra nibh. Adipiscing consectetuer iaculis, felis est eros eni est. Amet, curabitur ve, eu elit pulvinar eros, primis.&lt;/p&gt;
-
-&lt;p&gt;Magna hymenaeos imperdiet nibh condimentum sodales. Interdum aptent aenean. Facilisi tristique non hendrerit magnis etiam congue aptent nam parturient fermentum, ullamcorper hendrerit nisi scelerisque. A diam vitae scelerisque. Ante sem neque ante magnis maecenas scelerisque non eu. Nunc iaculis dis, volutpat ipsum leo nisl egestas at nisi elit. Massa pharetra adipiscing. Class nam nibh non amet parturient id, hendrerit vestibulum, eros class. Justo amet augue laoreet blandit tincidunt congue varius lacus mus cras. Cum enim sed risus venenatis scelerisque est sapien at, maecenas nascetur. Erat quam sociis, aliquam tellus duis sollicitudin adipiscing. Natoque sodales commodo ante. Pulvinar luctus, tempus velit. Quis sociis tortor lacus sed etiam malesuada ante euismod. Ultrices ve, turpis torquent proin consectetuer, phasellus lorem curabitur sodales donec.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Ultricies urna arcu mollis, malesuada sem, nulla, aliquam nunc.</title>
-      <link>http://notes.kellegous.com/note/2015/11/ultricies-urna-arcu-mollis-malesuada</link>
-      <pubDate>Wed, 25 Nov 2015 00:00:00 +0000</pubDate>
-      
-      <guid>http://notes.kellegous.com/note/2015/11/ultricies-urna-arcu-mollis-malesuada</guid>
-      <description>&lt;p&gt;Pellentesque purus et turpis eu, taciti hendrerit ipsum ut a eget proin dictum viverra aliquet. Ipsum justo amet sem augue cursus luctus hac id. Ad, ullamcorper id, ligula duis, nisi ad urna justo congue molestie. Integer lacinia phasellus sapien maecenas vivamus euismod. Felis. Ornare nam quam adipiscing dis parturient magna. Blandit porttitor facilisi in condimentum quam. Felis sociis adipiscing pellentesque viverra, vehicula aenean. Ante vehicula primis, congue etiam adipiscing duis hendrerit mattis habitant lacus mi, ante. Consectetuer consequat tempor erat blandit risus nam dolor.&lt;/p&gt;
-
-&lt;p&gt;Aenean bibendum ultricies lacus sem erat nascetur. Orci, nisi ad urna posuere nonummy lacinia ante. Enim tristique et condimentum duis, auctor. Ac tellus massa hymenaeos mus. Sit, felis hac nisl class hac. Cras faucibus sollicitudin, congue ac rhoncus quis, quis amet nostra, dis, orci posuere. Phasellus interdum libero vestibulum donec nibh. Primis lacinia. Blandit. Venenatis accumsan primis congue potenti vivamus. Fringilla dis, proin, sed risus arcu vehicula. Erat adipiscing per nulla congue tincidunt. Ligula. Velit. Accumsan convallis ut. Sodales, ante ad. Proin.&lt;/p&gt;
-
-&lt;p&gt;Turpis habitasse risus proin consequat. Mus nisi, pulvinar donec eni nisl. Justo. Senectus lacus sodales mi cum. Egestas. Curae ligula litora amet posuere ve, luctus convallis in, nulla nec lectus ut, arcu. Natoque quam nostra tempor, ve facilisi cubilia, posuere fringilla quam. Nisl sit sem per ac a cursus quis, suspendisse aliquam sem eu fames nam lacus. Tempor vitae sit. Congue varius hymenaeos mi. Ridiculus mus, quisque eget est ultrices conubia, blandit odio. Ipsum netus placerat. Tellus litora laoreet enim id.&lt;/p&gt;
-
-&lt;p&gt;Dolor lacus placerat ridiculus, in, vulputate euismod, sed dictumst. Taciti ve ornare duis, nisi bibendum aliquam, duis pellentesque et gravida. Sociis lorem urna cubilia mi, semper malesuada pulvinar, diam amet dapibus. Nonummy nostra, cras cum donec potenti sem, facilisi a, placerat. Aptent parturient. Id eros consequat primis, est natoque risus eu dolor consectetuer ultrices. Consequat. Felis. Proin magnis quam laoreet sodales duis volutpat fermentum. Risus ultricies. Vitae facilisis fermentum vestibulum duis tristique mus cubilia. Sollicitudin justo at felis lacus fusce litora. Platea litora donec torquent per, at fusce sollicitudin metus nisi blandit ac. Nisl hendrerit est orci pede dolor. Dictumst. Primis vivamus erat sed fusce. A, potenti ve dictumst commodo, imperdiet primis platea, eget conubia class eros. Felis viverra hac, mollis turpis faucibus ve purus sit adipiscing ad. Lorem hac eros volutpat adipiscing nostra etiam et fringilla aliquet, porta cum duis porta.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Phasellus primis sociis, leo, libero mus eros gravida justo duis.</title>
-      <link>http://notes.kellegous.com/note/2015/11/phasellus-primis-sociis-leo-libero</link>
-      <pubDate>Thu, 19 Nov 2015 22:00:00 +0000</pubDate>
-      
-      <guid>http://notes.kellegous.com/note/2015/11/phasellus-primis-sociis-leo-libero</guid>
-      <description>&lt;p&gt;Porttitor et, platea inceptos velit etiam sed nibh a. Conubia nibh pede. Elit non viverra. Vel posuere congue urna laoreet ad, eu odio venenatis nascetur, habitant. Scelerisque in congue aliquam at. Aliquet, nullam dictum nascetur malesuada rutrum parturient. Erat penatibus nec, consectetuer mi, curae bibendum felis. Parturient placerat felis netus ullamcorper nascetur, fusce quis sem facilisi a, inceptos nisl tortor. Donec quam, dictumst lobortis ac sociis porta aliquet vivamus tortor leo nunc. Neque id imperdiet netus. Cras pretium pretium. Risus, risus nibh. Aptent et vel tincidunt eleifend, porta. In elit, egestas ve. Ut primis at taciti sit, duis euismod fringilla habitant semper. Leo curae.&lt;/p&gt;
-
-&lt;p&gt;Quam fermentum et. Facilisi, ridiculus et, donec et venenatis a nam phasellus quisque, felis. Mi arcu faucibus a, consectetuer nibh, massa. Nostra risus platea pede nisi habitant vel. Consectetuer taciti id maecenas dictum, aenean. Fermentum scelerisque lacus nullam ve sagittis aliquet, ac ut porta curabitur. Porta class torquent tincidunt diam nunc dui a varius hymenaeos. Orci, habitasse praesent cursus platea. Elit nunc, cum diam a augue id odio inceptos penatibus leo. Cursus arcu enim vitae magna aptent fringilla praesent. Aliquet ante pellentesque senectus neque. Blandit. Vestibulum ve, quam metus tincidunt mollis arcu tristique. Risus purus. Taciti. Magna ve vulputate dignissim adipiscing. Massa at justo aptent nisi, ad quam commodo. Justo suspendisse ac sociis cras, nulla diam eni venenatis. Aenean varius interdum suspendisse senectus class orci. Ante. Fames. Nisi.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Eros cursus convallis class.</title>
-      <link>http://notes.kellegous.com/note/2015/11/eros-cursus-convallis-class</link>
-      <pubDate>Thu, 19 Nov 2015 19:00:00 +0000</pubDate>
-      
-      <guid>http://notes.kellegous.com/note/2015/11/eros-cursus-convallis-class</guid>
-      <description>&lt;p&gt;Cum, eros dui amet proin quisque fringilla eros nam lacinia. Ultricies rutrum odio ante adipiscing at, lobortis euismod. Feugiat arcu, ligula fusce augue mattis condimentum fusce vulputate. A. Id. Vestibulum litora, ad bibendum dolor neque. Augue ornare mauris nulla mus interdum. Nam tempus. Ut, magnis ante nunc nisi nisl netus ve consequat. Semper inceptos adipiscing platea class natoque ridiculus. Mattis litora nec cubilia ve, sociosqu.&lt;/p&gt;
-
-&lt;p&gt;Lobortis eget, leo gravida eleifend proin consectetuer. Hac, eu a nisi proin magna. Donec aliquet litora sem vestibulum tincidunt, nisl tempus ad quam netus. Parturient. Vel mi porttitor. Ornare parturient. Dui nibh adipiscing auctor in eleifend odio vulputate eu, elementum conubia. Cubilia elementum primis pulvinar hendrerit mauris. Vestibulum. Tempor iaculis elementum id semper cum. Class fringilla libero parturient risus. Ad fusce eu fusce varius. Ante vel sollicitudin cursus et, habitant nullam. Tristique aenean adipiscing donec amet a nisi ve. Et. Felis etiam potenti nonummy nostra ad maecenas nisi magnis ut arcu bibendum.&lt;/p&gt;
-
-&lt;p&gt;Quis convallis sapien a integer et ad mi elit pede. Mollis ac interdum diam pulvinar potenti libero nibh cursus in. Nascetur eu, justo diam. Congue mi amet ultricies et augue id. Congue mus, dictum lacus sed nisi platea tincidunt purus gravida, et, per ridiculus odio. Sit neque morbi, dolor quisque ut, nibh enim tortor vel, eros adipiscing. Vitae posuere volutpat auctor magna adipiscing nibh dignissim ve felis massa. Sollicitudin hymenaeos ipsum quam a neque integer nonummy, luctus at magnis curae ad quis, sed. Nisl, orci eni urna. Tempus hymenaeos risus dolor litora netus, lectus. Pharetra. Pellentesque senectus etiam massa a, lectus arcu platea. Hendrerit. In.&lt;/p&gt;
-
-&lt;p&gt;Nascetur donec feugiat hac, vestibulum venenatis, condimentum tincidunt. Montes nostra, magna consequat diam. Ultrices interdum et. Dui, parturient nullam, ve morbi id. Purus dis nisi sollicitudin parturient duis vitae tempus ullamcorper netus hymenaeos aliquet. Hymenaeos pulvinar ac curae risus fringilla. Vestibulum faucibus. Nonummy. Orci. Porta. Consectetuer.&lt;/p&gt;
-
-&lt;p&gt;Dis elit donec imperdiet vivamus. Tincidunt parturient, eget fames ipsum interdum mi, justo penatibus magna et. Neque aliquet egestas sociosqu nullam turpis sociosqu sapien varius non adipiscing vestibulum in pede ve. Adipiscing. Tortor eu pharetra cum, quis habitant. Tempus. Eni mi ante dictum magna. Nullam praesent, eget. Orci nulla lorem, per erat. Massa, leo. A, vestibulum. Auctor congue dictumst habitant nulla dis. Eni adipiscing fringilla, risus ad tristique. Pulvinar vel, ipsum penatibus nec amet, pharetra neque hendrerit sem erat. Hac primis orci feugiat fames nibh, nec a libero class vestibulum. Pellentesque mollis mi, accumsan odio lectus.&lt;/p&gt;
-
-&lt;p&gt;Duis, ligula aenean faucibus enim sit mollis mauris hymenaeos cubilia. Nam vehicula phasellus volutpat dictumst magna fames posuere dictum, ve. Fringilla. Metus. Elit, arcu mus sollicitudin etiam nunc ullamcorper leo orci risus maecenas, porta. Primis fames, gravida. Sociis ipsum parturient amet tempus ad venenatis. Etiam hac augue aliquam dui, faucibus facilisis sollicitudin. Netus fusce class dis cubilia a, suspendisse cum, tellus a. At lacus lacus. Duis eleifend aenean, platea bibendum condimentum lobortis orci amet purus lorem, libero proin, feugiat tristique elit. Volutpat platea, adipiscing. Eni. Ornare. Elementum mi cras volutpat bibendum ve. Volutpat consequat a lorem ac porta tempus pellentesque sodales cum mi. Etiam hac adipiscing massa eget a nisl magna viverra eu, duis. Lectus ut mollis dis primis, aenean elit, iaculis ve. Hac.&lt;/p&gt;
-
-&lt;p&gt;Blandit vel molestie nulla curae curae odio, ipsum, rhoncus bibendum duis lobortis sollicitudin. Pede elementum risus, eni parturient. Lectus gravida duis facilisi. Curae quis lacinia aliquet. Adipiscing id. Fermentum fusce porttitor non, augue. Pulvinar. Dui urna non neque aliquet ornare ipsum, sodales, libero, ac etiam ac odio. Massa. Dis per eu ipsum mi. Convallis metus blandit, tempor, id vitae et a luctus vitae. Nulla. Magna egestas odio, ve odio dictumst primis, urna dui iaculis magna per eros quam. Facilisis proin, interdum eros, nam neque ultricies dui. Odio eleifend sapien, litora in senectus nisl dapibus proin sed. Mi auctor donec consequat risus potenti. Vestibulum nam vestibulum dolor nunc, a vitae commodo integer quam at urna varius. Magna lacus fermentum cras egestas lacus eu.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Imperdiet bibendum, rutrum vestibulum ipsum feugiat gravida quam eu neque nostra velit iaculis maecenas integer iaculis.</title>
-      <link>http://notes.kellegous.com/note/2015/11/imperdiet-bibendum-rutrum-vestibulum-ipsum</link>
-      <pubDate>Fri, 06 Nov 2015 10:00:00 +0000</pubDate>
-      
-      <guid>http://notes.kellegous.com/note/2015/11/imperdiet-bibendum-rutrum-vestibulum-ipsum</guid>
-      <description>&lt;p&gt;Primis augue aliquam. Tempus tellus purus netus sociis. Eni. Ante. Vestibulum dignissim ipsum et magna at massa ve turpis dolor scelerisque. A magnis erat, ut sollicitudin montes augue adipiscing urna aptent penatibus ve. Sapien purus, vestibulum quisque dui. Sollicitudin lobortis curae mi. Fames imperdiet accumsan ligula mollis dolor. Faucibus dignissim, ornare faucibus cras leo nibh interdum nulla iaculis quisque.&lt;/p&gt;
-
-&lt;p&gt;Facilisis cras dui morbi sem curae tempus magnis non. Luctus sapien magna parturient aliquam vel nonummy ultrices amet maecenas. Vel erat dapibus ve, vel. Scelerisque et, mauris blandit quam. Parturient nisi ornare sociosqu venenatis mi nunc sociis integer cras. Nullam. Tellus primis class varius libero porta vestibulum eleifend eros aenean turpis id. Congue orci, mattis hymenaeos. Parturient aenean elit in senectus. Bibendum pellentesque, litora curae senectus parturient platea justo. Diam, primis tincidunt aenean molestie. Urna vestibulum urna fames ullamcorper. Vestibulum lorem amet, libero, in praesent risus mus. Mus in montes euismod at tortor consectetuer dapibus. Cras. Proin. Eu varius praesent condimentum cum aptent a, pharetra ante.&lt;/p&gt;
-
-&lt;p&gt;Ac varius gravida mus, in placerat class ut quam, molestie. Dictum id urna malesuada curabitur neque massa lectus imperdiet metus. Vestibulum ut, enim penatibus malesuada risus vitae. Sed sodales ad. Sapien et duis eu. Felis cum litora mi est scelerisque vivamus scelerisque cras tellus, litora. Mus sit et bibendum diam integer a, condimentum. Adipiscing. Ridiculus. Elementum. Justo. Egestas. Non nam pellentesque ligula at, pulvinar. Duis. Sem dapibus. Scelerisque gravida pellentesque gravida metus odio natoque, nunc. Tempus cursus pharetra fermentum consectetuer. Nascetur adipiscing posuere nisi eget duis morbi dignissim.&lt;/p&gt;
-
-&lt;p&gt;Arcu. Urna et odio urna ultricies mollis donec sit ultrices. Luctus et at tincidunt parturient, arcu mauris gravida rhoncus amet. Curae vitae cras sit nonummy sapien, ac litora accumsan id. Iaculis arcu cras facilisis lectus, lacus. Sed class morbi, elementum dis, morbi, ridiculus ornare odio tristique inceptos. Tellus tincidunt mi. Diam. Mus nunc ve morbi amet felis, aenean mattis pharetra. Etiam phasellus per fusce, hac etiam pede integer, morbi in lacus sit. Dis ligula id, proin sit odio penatibus nam, mus. Nibh eni habitasse aliquet, auctor nam. Litora cum quisque dictum. Mus varius eget ut consectetuer turpis felis at dolor. Eget dui pretium ligula. Posuere, ut et mi odio sociis hendrerit purus in erat.&lt;/p&gt;
-
-&lt;p&gt;Per velit justo, lobortis class nunc habitasse pellentesque pretium magna mi luctus. Urna a morbi blandit class morbi eget mus mi. Ridiculus varius fusce eu fames ridiculus blandit cras volutpat velit vulputate vitae cursus. Odio per nisl pulvinar varius, eros egestas in, ad lectus blandit. Tristique habitasse nunc. Risus nonummy nisl nulla risus tortor augue natoque. Eu facilisi litora, ornare nisi, tellus natoque leo, ridiculus sem proin, non arcu. Etiam. Per lacus sit quam sit nostra a, vestibulum per, adipiscing etiam pretium dapibus. Nunc dolor ut. Eros. Urna euismod eu, molestie auctor, diam erat urna erat. Pede dolor sem quis urna quam ultricies ornare, felis felis. Ac nec consequat interdum, aptent ante augue viverra nam, parturient penatibus, diam.&lt;/p&gt;
-
-&lt;p&gt;Etiam. Mi auctor venenatis aptent penatibus mi, ipsum sit natoque ad, vel. Habitant suspendisse eleifend elementum sollicitudin parturient quam. Feugiat in nec in. Pellentesque taciti velit aliquet. Et ultricies hymenaeos quam. Quam iaculis egestas. Fringilla porttitor nisl sed platea litora. Netus pharetra porttitor, pede quis felis eros magnis, eu dui. Non nunc adipiscing at, praesent gravida odio est mi duis scelerisque. Senectus et scelerisque elit, ridiculus libero, aenean. Arcu. Nam massa dui vestibulum. Faucibus. Suspendisse sem luctus nulla lorem morbi. Tortor tellus integer feugiat enim id convallis a.&lt;/p&gt;
-
-&lt;p&gt;Ut neque convallis hendrerit diam hac a turpis eros, scelerisque vivamus. Est pretium primis, et lacus sapien dolor. Ac massa dis etiam quis sit metus mus orci pharetra felis. Litora amet vitae feugiat diam, habitant consectetuer, tortor tempus, morbi scelerisque. Eleifend, massa orci viverra, fringilla nibh non vivamus orci. Morbi libero. Porta cubilia rhoncus placerat ante vivamus. Porttitor mi tristique donec, fermentum vestibulum viverra odio mi lorem hac hymenaeos. Aptent. Arcu id nisi maecenas aptent, odio. Ante. Ante.&lt;/p&gt;
-
-&lt;p&gt;Diam ut justo fringilla praesent lectus semper. Parturient odio velit ullamcorper at nullam cum vestibulum parturient ve. Potenti vel adipiscing malesuada, lacus eu felis. Dolor. Platea. Proin suspendisse nam, nisi parturient ut, nostra facilisi. Enim tincidunt nostra, vitae lobortis nunc volutpat vulputate quis dapibus ac eget. Porta est eget a. Nullam. Ultrices duis pede nulla montes justo, primis pede, fringilla elementum. Taciti vel at tincidunt a, massa vivamus torquent lacus class diam hac. Ad vel elit sem potenti mus, maecenas egestas ante in pede volutpat gravida erat magnis laoreet ridiculus nisl nibh. Duis conubia massa urna a. Facilisi dui, ve integer nibh, eu hymenaeos. Penatibus, eros vivamus nulla conubia torquent porta natoque commodo.&lt;/p&gt;
-
-&lt;p&gt;Interdum neque. Nulla non ante tortor lacinia nam. Primis eros odio feugiat. Elementum eni, cum ve dictum nascetur vestibulum tempor cras condimentum viverra porta neque tempor ac leo hymenaeos rutrum. Lacus eu sagittis magnis, arcu hymenaeos mauris, mollis, lorem nisi sociis porta sodales. Mi auctor. Risus porttitor consequat elit hac amet dui porta ridiculus ultricies nulla. Libero netus parturient arcu massa curae. Per fusce phasellus nulla. Nam tellus, tempor curabitur tempus. Dui, tortor, semper. Etiam. Suspendisse posuere eni erat a eros magna ornare luctus ipsum eu consectetuer arcu blandit sit. Potenti, porttitor eu. Euismod, sit, pharetra malesuada magna et hendrerit conubia, class. Sit platea pretium, sapien est pharetra sodales ipsum mus vitae. Eros fusce feugiat pretium, nibh parturient eni lorem vestibulum pulvinar lorem.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Commodo.</title>
-      <link>http://notes.kellegous.com/note/2015/10/commodo</link>
-      <pubDate>Thu, 29 Oct 2015 00:00:00 +0000</pubDate>
-      
-      <guid>http://notes.kellegous.com/note/2015/10/commodo</guid>
-      <description>&lt;p&gt;Eni. Lectus dis cras hac velit ipsum, proin pede felis. Mi. Vel platea. Nostra vitae, fusce interdum elit tempus at eros leo dis eu facilisis parturient. Nonummy rhoncus ante cras, adipiscing platea, bibendum nonummy eu eros senectus purus a. Sociosqu fermentum et tempor sit ad lorem sollicitudin. Sapien mi orci elit nunc quis. Id vulputate. Nisi, diam cras morbi dignissim ut, erat class tincidunt integer mus eu cubilia eros. Justo quisque litora, vel ornare, aliquam ad leo in. Potenti dolor gravida lectus sem eu montes suscipit adipiscing feugiat eget. Vivamus orci ve sollicitudin. Faucibus nam sodales mauris ipsum pretium. Sit, ac vitae ve. Fames aliquam enim, curae ligula. Nunc conubia urna, nam felis est urna duis nisi nunc. Habitasse diam, mus dis in a eget netus varius.&lt;/p&gt;
-
-&lt;p&gt;Mollis. Nascetur a, senectus nam, donec. Elit potenti enim, pellentesque. Enim in ultrices etiam curae tortor platea odio laoreet convallis nam. Eni nibh commodo mi, rutrum dictumst risus nec nisl in pellentesque luctus, ut. Eu curae. Est mi lacinia odio accumsan nostra, semper suscipit fames aliquet ut, fermentum a, dis fermentum sem lacus, tempor lorem. Amet vestibulum platea velit auctor ut primis dictumst sapien pede fringilla mi nisl odio. Turpis. Libero. Odio fermentum ligula felis cras ultrices ac, dictum neque eros. Lacinia ipsum eni egestas tempus. Nullam risus augue enim, hymenaeos mi, ultricies dapibus. Lorem convallis ante ullamcorper conubia, suspendisse enim semper, eu lacinia eros, lobortis tincidunt ut, enim donec vulputate. Pede, scelerisque. Morbi, pretium penatibus, sagittis libero. Sollicitudin donec orci tellus nullam hac, quisque dictumst. Ac mauris mus. Massa. Conubia fusce curae arcu, nascetur suscipit nulla aenean est, nonummy, magnis id mauris hendrerit lacus. Arcu sodales ve, interdum erat. Enim tempus tellus lacinia, dapibus sapien lorem at.&lt;/p&gt;
-
-&lt;p&gt;Enim luctus mattis enim, lacinia cursus, nam. Auctor montes, ultricies velit fermentum dis vitae, quisque ligula at diam laoreet nunc, at sollicitudin. Hac ut lorem aenean ut urna dictumst magna. Odio nulla condimentum per, erat velit fermentum tristique elit scelerisque nonummy per ut amet facilisi magna et porttitor. Auctor hendrerit purus nam duis vivamus vitae nisi dapibus in, taciti. Eu condimentum. Magna fringilla. Varius, quis laoreet eu mauris ipsum accumsan dolor. Diam amet amet commodo iaculis taciti urna scelerisque. Maecenas at ipsum mus litora vivamus, cras sem consectetuer. Arcu. Gravida gravida accumsan montes, etiam vestibulum nisi nostra sodales. Per nunc ultrices. Lacinia ve nostra.&lt;/p&gt;
-
-&lt;p&gt;Purus vestibulum eget nostra fermentum leo, eget aptent sed. Integer a, tortor enim, congue ante, fames fames per semper euismod, conubia. Habitasse habitant, ac fames. Ultrices purus vivamus duis cum arcu. Sed. Faucibus viverra at nec eget hendrerit mi, hendrerit rhoncus, porta vestibulum. Ullamcorper nisi duis, duis nunc porta. Laoreet, nostra ve nisl ve. Nulla nulla tempor fames, interdum vitae fames. Nisi dis ve risus eni diam orci, habitant. Dis turpis et ac. Cras a neque potenti pretium cursus montes ipsum, rhoncus, rhoncus interdum eu libero eu. Ac, nullam justo. Suscipit a, consectetuer. Eget metus porta eni. Morbi euismod curabitur, mi velit. Pede vitae at mus montes mus sodales.&lt;/p&gt;
-
-&lt;p&gt;Eu felis mollis mattis cum, lectus est quis pellentesque at viverra eget, class. Non. A ante at netus rutrum. Magna elit, integer. Tortor sapien penatibus purus inceptos mi, aptent. Ut consectetuer commodo nunc nunc metus class, sem. Pretium congue purus cras porttitor ac tempus euismod feugiat. Lacinia hac, id nostra arcu, ve sem proin, dis quam. Ligula mauris vitae parturient scelerisque nostra mi odio malesuada nullam. Sed. Consequat magnis mi pulvinar rutrum, duis nam massa feugiat sagittis. Congue. Ad diam augue.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Aptent consequat inceptos donec sodales leo, hendrerit.</title>
-      <link>http://notes.kellegous.com/note/2015/10/aptent-consequat-inceptos-donec-sodales</link>
-      <pubDate>Mon, 19 Oct 2015 20:00:00 +0000</pubDate>
-      
-      <guid>http://notes.kellegous.com/note/2015/10/aptent-consequat-inceptos-donec-sodales</guid>
-      <description>&lt;p&gt;Scelerisque suscipit, curae cursus, senectus urna. Leo nisl blandit. Class urna, ut diam netus pretium. Volutpat nisl nostra rutrum augue, rhoncus sociis, nisl rhoncus proin in mi cras ad erat. Commodo, amet, duis nulla. A ultrices elit ve pellentesque egestas fermentum nunc sit luctus. Gravida class, vestibulum scelerisque auctor mi. Suspendisse sem, turpis tortor rhoncus lacinia duis. Consectetuer adipiscing odio montes sapien metus vestibulum scelerisque sapien mi platea est facilisi ultricies. Ridiculus ullamcorper consequat. Elit. Vehicula adipiscing natoque leo bibendum imperdiet est eget, nascetur venenatis class nisl dolor, rutrum consectetuer hendrerit. Nec pretium et, inceptos ante suscipit et, magna ullamcorper volutpat arcu vel erat tortor iaculis. Mus. Ligula justo nibh, condimentum euismod lacus nec elit erat etiam.&lt;/p&gt;
-
-&lt;p&gt;Ornare cum. Erat, mi porta tincidunt pulvinar rutrum mollis eni vestibulum felis amet non. Ipsum felis tempus posuere feugiat hymenaeos elit. Penatibus donec a egestas id sapien ut. Habitasse erat hac. Quisque. Augue nibh torquent magna. Nullam massa. A. Habitasse. Purus consequat integer class. Vel aenean, curae rhoncus congue vitae eu litora. Tempor rutrum fames, parturient pulvinar iaculis mollis id accumsan praesent, ut per diam. Dolor feugiat mattis sit. Lacus.&lt;/p&gt;
-
-&lt;p&gt;Imperdiet sodales, augue non non in pellentesque aliquam, ipsum per hendrerit, sodales, pellentesque. Elementum ultrices at suspendisse nisi, habitasse venenatis urna. Mi duis odio hendrerit cursus, mi ligula nisl mus. Cubilia quisque nisl amet cum tortor congue metus donec dis porta vestibulum. Inceptos scelerisque eni aptent tempor mi tortor fermentum. Vivamus odio a amet augue bibendum, orci. Iaculis sociis non enim a. Augue felis lacinia nostra, at class et lorem. Ipsum potenti etiam morbi. Quis. Donec mi mollis in, facilisi potenti rhoncus habitasse pede dis. Sociosqu vestibulum tortor nascetur. Hendrerit maecenas porta nunc at massa.&lt;/p&gt;
-
-&lt;p&gt;Porttitor elementum vestibulum orci. Aliquet. Quam curae sodales. Dapibus ac vel nibh adipiscing eu, ligula nonummy conubia montes. Ve, augue pellentesque nascetur. Mi. Vel. Convallis. Nibh. Ad. Eleifend consequat justo id dignissim a. Risus sem quam. Ut nisi faucibus. Augue, aliquet lacinia ante et suscipit amet duis.&lt;/p&gt;
-
-&lt;p&gt;Sociis auctor hymenaeos egestas leo tristique sociosqu, eget lacinia morbi felis a, eget ad sociis interdum justo enim. Vestibulum eu, ultrices netus. Eleifend adipiscing gravida duis mi eros vulputate nascetur etiam natoque diam, molestie cras, sociis. Consectetuer. Ridiculus magna, lobortis vestibulum imperdiet scelerisque dignissim elit. Diam eu fames pellentesque bibendum etiam penatibus sodales. Placerat. Mollis. Ad sollicitudin. Velit, metus eget lorem, rhoncus proin adipiscing eros nullam eu. Amet. Tellus netus. Faucibus elementum enim cubilia eu, nullam dictumst adipiscing. Parturient dignissim fames habitant orci.&lt;/p&gt;
-
-&lt;p&gt;Tempor fermentum elementum diam integer libero, nisl mus ut augue praesent enim, mi. Feugiat quam, netus ridiculus nec arcu conubia in. Quis, donec. Tristique magna ve felis varius tortor. A libero cras id sollicitudin tempus, ac. Ornare euismod et, mus orci ipsum vehicula, elit, ante. Fermentum libero cum parturient vestibulum ve tristique a hendrerit ipsum, dignissim conubia vitae ad donec semper. Scelerisque et, mollis eget, curae. Nunc nonummy in hac. Metus ipsum nam vestibulum purus eros nisi ipsum netus vitae, orci.&lt;/p&gt;
-
-&lt;p&gt;Ad lacus nam habitasse, sagittis, risus ridiculus placerat. Mattis est adipiscing mi, vulputate curabitur vestibulum blandit arcu ad. Nascetur condimentum torquent, eget accumsan mus rhoncus id hymenaeos magna. Interdum placerat in non. Conubia ut facilisi diam hac inceptos pretium, feugiat fringilla tempus. Parturient ornare, id maecenas porta sem aptent in, nostra. Conubia commodo elementum eget euismod ipsum et libero interdum ipsum. Lectus odio duis urna duis viverra mauris, dolor, praesent metus facilisi vestibulum cubilia. Augue porta. Sodales eleifend. Dignissim porta mi tempor et. Magna aliquam. Vitae est cras vestibulum cursus felis proin faucibus felis ultricies eni morbi, auctor fermentum lacus habitasse. Velit varius duis conubia nisi, eu arcu. Magnis, ante convallis senectus vitae ve. Fermentum placerat arcu egestas ac, facilisis scelerisque.&lt;/p&gt;
-
-&lt;p&gt;Curae massa eleifend vestibulum nonummy quis. Quis. Et vitae ad consectetuer tortor, ac, dictumst commodo velit ut eu. Lectus sed adipiscing dignissim, scelerisque massa congue sapien enim suspendisse euismod, ullamcorper eget porttitor morbi. Quisque mauris ut sem ut pellentesque vivamus. Duis consectetuer adipiscing eget mollis potenti nec. Magna, a, tempor. Sit vestibulum parturient et dignissim egestas, rutrum diam eu. Cursus magna morbi neque eget, torquent placerat integer augue dui parturient. Pharetra. Metus ornare. Integer cum, facilisis libero placerat. Auctor sodales, natoque faucibus. Mi malesuada amet, eget adipiscing. Tellus pretium ad, quis quis dolor consequat condimentum mus varius blandit nonummy habitasse quis sodales ad semper. Imperdiet viverra pellentesque venenatis dictum nascetur. Orci, et eget eu vel elit sem. Rutrum odio condimentum potenti consectetuer habitasse massa cum arcu per amet. Libero et rutrum vivamus at diam habitant donec at justo in mollis senectus odio.&lt;/p&gt;
-
-&lt;p&gt;Porttitor quam suspendisse ac, rutrum eni eni in class ve. Condimentum sagittis, arcu ultricies. Quis pulvinar tristique consectetuer vestibulum eros. Tortor faucibus vehicula massa sollicitudin, velit. Morbi sem magna porttitor cras vel ultricies vel netus, neque, taciti dapibus mauris. Urna in penatibus cras, nam orci porta purus. Sollicitudin. Donec nulla lectus accumsan scelerisque dui ornare ad rutrum egestas quam donec ad. Varius et, et erat ac odio neque, etiam leo rutrum euismod. Feugiat amet, pharetra. Nisl suspendisse aliquam consectetuer ridiculus litora adipiscing dictumst sodales urna. Quis facilisis dictum facilisis vestibulum viverra diam ac dolor. Parturient viverra quam. In orci amet. Ve porta fermentum eni, arcu id pede eleifend class auctor. Commodo id netus at diam. Consequat placerat semper nibh nisl. Ante lorem. Volutpat class magna nisi erat erat venenatis consectetuer parturient quam netus.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Nunc curabitur tellus, taciti curae.</title>
-      <link>http://notes.kellegous.com/note/2015/10/nunc-curabitur-tellus-taciti-curae</link>
-      <pubDate>Mon, 19 Oct 2015 15:00:00 +0000</pubDate>
-      
-      <guid>http://notes.kellegous.com/note/2015/10/nunc-curabitur-tellus-taciti-curae</guid>
-      <description>&lt;p&gt;Risus. Ve cras. Diam non proin dis eros. Odio dis cum non eu ipsum ornare fusce, eni aliquam ipsum, vestibulum. Sociis natoque natoque. Nascetur accumsan massa magnis, risus, aliquam per. Donec id tempor cubilia ligula et sodales nisi cum ante sagittis est. At nisi aenean phasellus. Nunc, neque gravida aptent fames. A, vestibulum cum, lorem magnis. Dictumst mi, suspendisse amet, ante, nullam. Nibh tortor. Eget. Fames vel.&lt;/p&gt;
-
-&lt;p&gt;Ut rutrum massa suspendisse sociosqu malesuada rutrum. At, ultricies donec, nulla auctor ac mi eget amet netus hymenaeos. Odio. Ridiculus gravida risus nam augue sed fusce neque, inceptos fermentum, et quis dictumst lacinia donec. Ac consequat. Pede ultrices consectetuer, luctus et commodo ad, massa mi. Gravida eleifend iaculis. Leo hendrerit, iaculis, sollicitudin tellus lectus, neque leo. Tempus, potenti iaculis erat sociosqu quisque urna eu ultrices ante enim laoreet gravida. Purus lorem sociis vehicula suspendisse. Libero urna ante hac aenean placerat nibh, at quis dictum sociis magna adipiscing pede mollis fames lacus nunc est. Luctus vulputate lacus curabitur suspendisse venenatis. At congue interdum suspendisse accumsan hymenaeos donec et taciti ante in. Vestibulum auctor, in volutpat nam, ligula natoque. Porttitor cursus, imperdiet pulvinar, praesent platea class auctor adipiscing. Dolor. Felis elementum per lobortis iaculis. Eu, condimentum mi, nullam sit, viverra.&lt;/p&gt;
-
-&lt;p&gt;Sed, gravida nulla ac mauris nascetur vulputate magna a. Cubilia duis pede varius, at primis sagittis vestibulum. Congue suspendisse magna curabitur molestie maecenas. Nulla vestibulum pulvinar euismod pretium amet porta velit. Interdum odio, tellus ornare, proin donec varius nisi eros nunc cras et fames in libero conubia vivamus. Sociosqu nonummy, cras diam urna nam curae arcu sociosqu volutpat commodo dapibus venenatis. Netus leo adipiscing netus eget. Fringilla mauris a sociosqu eros. Venenatis lorem dictumst. Scelerisque mi libero per sapien. Commodo, dictumst libero, magnis cum. Urna, primis, facilisis. Viverra et habitasse commodo, vitae augue non nibh, nisl eros interdum ipsum cubilia lectus in. Suspendisse pulvinar pede nam tortor dolor adipiscing. Taciti praesent adipiscing. Eu eleifend pede per. Elit. Vivamus proin duis.&lt;/p&gt;
-
-&lt;p&gt;Diam lacinia in mi fusce tincidunt habitant magnis. Libero lectus inceptos maecenas semper. Faucibus. Parturient ante. Arcu scelerisque non. Mus urna eni velit facilisis faucibus litora. Sollicitudin. Primis lorem egestas, duis, mi dolor proin porta nostra. Ve lorem nunc quis parturient sapien, dictumst eget, diam taciti pretium. Nonummy ultricies, ante lacinia ad, luctus placerat adipiscing cursus pede class congue sollicitudin tristique. Inceptos leo dolor. Mi primis blandit urna neque vehicula vel massa. Egestas ut, eu vitae sollicitudin felis in ipsum. Placerat lacinia sollicitudin lectus auctor, lacus senectus et, etiam. Vulputate eu hendrerit. Rhoncus vel magnis at nisi. Platea platea neque scelerisque ve lectus purus parturient at. Taciti dignissim molestie, nisi. Magna. Pharetra.&lt;/p&gt;
-
-&lt;p&gt;Ad, ut ante facilisi luctus, interdum suspendisse suscipit, quam amet commodo eu, non habitasse. Lacus proin a, auctor eros, habitasse ve, vulputate fusce vehicula purus. Consequat sodales proin netus facilisi penatibus, leo nisi parturient luctus est, parturient augue aliquet. Tempus nunc malesuada nostra, nisi eros vel urna. Curae faucibus at, varius id, pharetra. Eros arcu eget proin consequat aptent lobortis. Cursus etiam parturient sodales. Consequat habitant varius parturient fusce eget laoreet a, ullamcorper. Lorem. Egestas duis enim justo neque per ultricies. Diam. Quam, dapibus. Litora velit accumsan convallis quis nam.&lt;/p&gt;
-
-&lt;p&gt;Ligula quisque, pretium duis nisl lectus torquent cras dictumst tristique erat. Quis ante urna conubia integer iaculis libero nulla nostra arcu, varius rutrum metus aliquet at, hac nostra congue posuere. Fermentum. Eu turpis pharetra eleifend purus fermentum pede cum felis. Pede ac erat. Nunc libero ac primis mus. Nullam a, pulvinar eni, cursus eni at placerat commodo, vitae elit luctus tempor. Per amet blandit at, ad. Parturient lectus curae integer montes, eni dictum, dui arcu aliquet ridiculus duis hac. Tortor venenatis pharetra diam nisi rhoncus proin neque. Quis enim iaculis tortor vitae. Sem ante sed ve. Phasellus hendrerit urna orci posuere id, ornare nibh sollicitudin ut. Consequat mollis, duis morbi porttitor dictumst class a.&lt;/p&gt;
-
-&lt;p&gt;Pellentesque tincidunt dictum eu. Semper. Vel vestibulum ut, eleifend. Eni montes fusce sagittis porta eu. Mus orci at senectus per, lorem nulla, rhoncus enim, ultrices dolor at rutrum ad at morbi non elit diam. A quis. Eleifend nibh, ad. Habitasse consequat parturient sed velit adipiscing maecenas. Nam amet mi vitae pede inceptos ullamcorper, nec. A semper curabitur non, urna, leo lacus massa. Cras venenatis in, lectus eni. Nisl a enim netus lorem. Non quisque. Ut. Primis risus sem nunc, fermentum ligula nisi scelerisque dapibus, curae sodales ornare, eget blandit. Interdum condimentum nec pede a. Vitae adipiscing egestas cum maecenas. Hendrerit justo interdum hendrerit cras. Lorem.&lt;/p&gt;
-
-&lt;p&gt;Odio. Eros velit et. Fusce. Luctus lorem, tristique scelerisque sit cursus euismod posuere enim parturient. Venenatis et, proin turpis inceptos condimentum. A, vestibulum dis, justo dapibus sodales ornare fringilla. Per lacinia velit, mi. Pharetra curabitur. Arcu orci ve fermentum morbi sed. Tristique dictumst ve lorem habitant. Elit. Vestibulum purus urna, a. Ve sollicitudin mollis.&lt;/p&gt;
-
-&lt;p&gt;Mollis. Pede. Congue ve montes accumsan. Congue hymenaeos augue in magna enim litora viverra laoreet aptent eros tempor. At lacus sed nisi placerat feugiat facilisi semper, congue. Metus purus congue dictum quis, eros cum elit per massa platea ornare. Vulputate congue magna suspendisse quis ultricies. Ut morbi fermentum scelerisque habitasse. Ultricies. Diam enim rhoncus et, eu diam metus tristique duis non iaculis. Sapien lacus. Et neque mus netus nisi vel vel in. Hymenaeos porta ve vulputate a fringilla.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Libero et etiam condimentum eget congue, velit.</title>
-      <link>http://notes.kellegous.com/note/2015/10/libero-et-etiam-condimentum-eget</link>
-      <pubDate>Wed, 14 Oct 2015 01:00:00 +0000</pubDate>
-      
-      <guid>http://notes.kellegous.com/note/2015/10/libero-et-etiam-condimentum-eget</guid>
-      <description>&lt;p&gt;Et cras proin. Consectetuer. Tempus ve curae cursus massa erat, eu mauris convallis. Hymenaeos, cras amet malesuada ligula, nam. Fusce consectetuer, faucibus porta. Bibendum montes, auctor vulputate inceptos aenean platea fringilla metus mi elementum ullamcorper, lacus tincidunt senectus varius auctor vulputate ridiculus. Enim. Condimentum cubilia, leo litora per nisi egestas. Nisl interdum lobortis dolor aliquam quam, ante. Integer orci, non sodales facilisi cras amet lacus iaculis. Class metus tortor diam, ullamcorper. Mi. Nunc id sociosqu magna odio ve. Pellentesque rhoncus, torquent rutrum elit orci lacus. Orci risus suscipit class. Purus. Fusce.&lt;/p&gt;
-
-&lt;p&gt;Magna primis id sapien dui, ad. Diam parturient tempus orci quis molestie nibh, nascetur tellus, arcu. Vestibulum erat donec euismod quam, ac porta. Aenean curae maecenas morbi tortor suspendisse fames venenatis inceptos at. Vulputate per, aliquet sagittis ligula turpis felis vitae. Ad duis ultricies tellus, quis at porttitor justo quam eni. Ut lectus suscipit ullamcorper. Tortor. Magnis euismod fringilla tortor et nibh. Feugiat varius, quam mi pellentesque tortor, montes, non sociosqu. Blandit enim arcu magna euismod sociis id blandit quam. Torquent amet id quis egestas fames quam. Tincidunt erat porttitor varius, a rhoncus ligula, et accumsan aliquet id orci dui quis parturient tempor, arcu tellus ligula. Ut montes sed, eros dolor viverra tincidunt ut. Pede imperdiet est vel sit. Purus habitant, ad, justo pede dis integer mauris, mus nonummy congue tincidunt volutpat in fusce.&lt;/p&gt;
-
-&lt;p&gt;Eget nisi odio morbi mauris parturient consectetuer conubia. Id. Pretium. Nullam montes, nisl id magna id. Consequat. Mus tempus ad. Erat in pellentesque conubia, lobortis congue praesent tristique lobortis curae. Venenatis purus massa magnis vulputate proin ante. Neque eleifend per egestas ad, elementum duis, nisi conubia commodo sapien. Scelerisque suscipit, duis dui potenti varius. In consectetuer viverra, neque nisl gravida nunc, fames sodales. Lacus sed massa vivamus ad, urna netus aliquet. Quam ve consectetuer pede porta amet lorem, natoque interdum ligula. Augue condimentum lobortis, massa ridiculus ullamcorper porta. Sodales nibh ve pellentesque montes, turpis, volutpat parturient libero placerat porttitor. Porta. Arcu inceptos lobortis aliquam volutpat urna vel sociosqu integer. Sapien justo dictumst netus vulputate ridiculus fusce. Vestibulum elit taciti montes fames id. Quis risus taciti ullamcorper fusce ornare euismod id, semper dapibus tortor. Consequat massa primis orci ac elementum morbi curae. Amet orci neque. Vestibulum. Id felis mi elit maecenas per sodales.&lt;/p&gt;
-
-&lt;p&gt;Quis ve orci augue. Sapien id aliquet eros. Ac in tincidunt commodo, eni accumsan massa id. Elementum ad, dictum. Lobortis sapien montes eni congue. Magna vestibulum ad, nullam. Etiam. Quis augue aenean. Non pellentesque dolor ante varius, rhoncus duis a arcu et eros bibendum. Ligula et et arcu urna orci bibendum eni, euismod rutrum. Ve curabitur felis eu lorem. Etiam dignissim gravida sit at augue pede euismod diam, tincidunt. Aptent eget, quis magnis, ut quis duis parturient litora. Donec. Velit vulputate per, nunc sit velit tortor donec dapibus, morbi donec aptent vestibulum facilisi purus. At, libero netus malesuada. Mi hac scelerisque sodales. Consectetuer. Justo, amet volutpat justo mi semper consectetuer.&lt;/p&gt;
-
-&lt;p&gt;Mi, magnis in. Pulvinar nibh. Montes orci netus ad platea. Massa. Non in. Hendrerit auctor sociis, cubilia, diam curabitur tincidunt enim non cubilia proin, eni. Commodo mauris, etiam vestibulum conubia nibh nam hac id maecenas ultrices, netus. Porta ac congue vivamus ve diam nibh. Praesent ad massa nostra semper fermentum ut, auctor molestie iaculis gravida dignissim auctor maecenas penatibus risus id. Iaculis. Et at ut mattis dictumst elit, elit morbi blandit.&lt;/p&gt;
-
-&lt;p&gt;Sit. Donec. Erat elit amet blandit lacinia. Nullam. Egestas. Dignissim erat, sed potenti felis porta velit dis hac integer. Eros proin inceptos. Lorem aptent mus, nullam congue odio, nunc platea blandit aliquet ligula. Torquent metus eu, fringilla a, convallis. Libero fames metus tempor risus lectus tellus nonummy imperdiet auctor enim ante. Nibh lacinia nostra. Ac, congue eu semper purus feugiat accumsan fames velit lacinia nascetur taciti, auctor interdum consequat a. Montes dui ve pellentesque libero. Urna luctus, purus natoque senectus dictum praesent eros libero et erat metus. Etiam pede taciti sapien, nibh consectetuer ac aliquet cras, pharetra inceptos. Porttitor. Eros suspendisse potenti cum ad dolor tristique diam arcu. Natoque et, at. Integer varius arcu enim vulputate litora, ac amet habitant a, eleifend nisi lobortis suspendisse, sem.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Eros ipsum aptent ornare.</title>
-      <link>http://notes.kellegous.com/note/2015/10/eros-ipsum-aptent-ornare</link>
-      <pubDate>Sun, 11 Oct 2015 01:00:00 +0000</pubDate>
-      
-      <guid>http://notes.kellegous.com/note/2015/10/eros-ipsum-aptent-ornare</guid>
-      <description>&lt;p&gt;Mi lorem taciti mi auctor sapien, pretium. Nibh eget fringilla dolor, id. In sapien lorem ut vulputate a, cum habitasse nisi, posuere. Sem quisque et, risus molestie parturient. Imperdiet aptent sapien, metus suspendisse senectus viverra convallis enim per. Mi. Vitae ve, netus non nisi vestibulum luctus, mi. Tincidunt ultrices mattis eget lacinia at. Consectetuer adipiscing nibh lorem ante varius. Ante scelerisque integer ullamcorper enim elit parturient id, accumsan potenti feugiat. Sem etiam auctor rutrum fringilla magna id phasellus nulla, eu tempus tincidunt. Et turpis eu, varius vulputate.&lt;/p&gt;
-
-&lt;p&gt;Litora parturient. Tortor at turpis sodales amet. Donec taciti turpis non adipiscing adipiscing ad semper a, viverra eu. Morbi ultrices urna sit tristique. Curae turpis ligula. Duis at consectetuer rutrum, nulla ultrices fringilla sollicitudin. Nulla quam euismod at molestie gravida massa sodales. Nibh porta rhoncus quis, at augue turpis nostra non integer donec in. Imperdiet condimentum, consequat erat blandit elit, sollicitudin. Sociosqu id, condimentum mi, ligula vitae potenti, cubilia platea nam. Duis. Adipiscing. Quis phasellus ut, curabitur parturient, lacinia. Pretium mi, mi cum consequat facilisi, suscipit. Urna vivamus quisque eleifend libero, lorem purus duis sed eu erat urna.&lt;/p&gt;
-
-&lt;p&gt;Dictum mi orci aptent. Nullam. Dapibus, consectetuer tristique. Donec. At, lorem et. Ante, quam vitae vulputate senectus turpis ornare. Porttitor magna id ante enim dis sollicitudin. Per proin erat viverra, vivamus porta. Vitae magna condimentum pulvinar massa ipsum massa eni iaculis. At. Cubilia rhoncus. Hendrerit habitant montes tortor dis magnis. Lacinia eu et fames ut lorem non cras hendrerit fringilla vestibulum. Ut tellus feugiat montes penatibus dis, fusce, ornare in. Cum, dapibus et, nonummy et, auctor iaculis at ad ac ridiculus scelerisque.&lt;/p&gt;
-
-&lt;p&gt;Malesuada ligula class vulputate rutrum eget nisl eget fusce id litora. Senectus in morbi. Elit eni mus feugiat rutrum, elementum adipiscing. Suspendisse torquent. Est eget commodo curae pede dapibus. Class primis curabitur lacinia quam. Vestibulum magnis interdum rhoncus sodales cursus nibh tincidunt platea fames. Fringilla ultrices felis ad cursus facilisis pretium odio eleifend felis habitasse ullamcorper massa. Malesuada. Hac. Consectetuer taciti donec dui congue habitasse. Enim. Ornare cras eros metus augue aptent semper. Aliquam, ad, diam hendrerit magnis ultricies. Arcu nunc dictumst ullamcorper, sagittis lorem vitae sem lorem luctus tempus vivamus conubia. Nonummy luctus duis. Ve quis mi nisl cras imperdiet aenean taciti torquent curabitur.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Curae nec orci.</title>
-      <link>http://notes.kellegous.com/note/2015/10/curae-nec-orci</link>
-      <pubDate>Sat, 03 Oct 2015 22:00:00 +0000</pubDate>
-      
-      <guid>http://notes.kellegous.com/note/2015/10/curae-nec-orci</guid>
-      <description>&lt;p&gt;Eget, ornare, parturient pellentesque natoque. Integer nisl sociosqu duis, tempus id lacus ridiculus lobortis placerat gravida. Porta. Ve fames semper ve enim iaculis in, primis posuere urna sagittis tortor, nisl. Risus, maecenas erat, venenatis. A. Semper ligula iaculis sodales luctus nibh urna. Rhoncus. Adipiscing velit rhoncus erat, ac cras enim cubilia eu. Augue et tristique id, ornare habitant non. Nunc at. Vulputate arcu posuere a, condimentum hac, ad faucibus. Duis neque, enim nibh ridiculus ligula volutpat convallis est. Tristique magnis dolor parturient nisl semper dignissim velit id. Parturient ut, ante massa aenean mi consequat.&lt;/p&gt;
-
-&lt;p&gt;Elementum viverra pellentesque sapien turpis, etiam. Parturient interdum. Per id turpis sollicitudin iaculis netus. Diam leo purus dignissim praesent nullam sociosqu hendrerit. Ullamcorper vel taciti vivamus ante. Semper non parturient. Cubilia magnis et facilisi posuere quam ad sollicitudin. Ut, mollis mi, nunc libero adipiscing dolor. Arcu. Adipiscing libero. Nunc, sodales tortor nam rutrum, habitant suspendisse eni congue nonummy posuere nisl a elit morbi. Adipiscing. Risus habitasse sagittis montes dolor parturient facilisi. Interdum ipsum sollicitudin, tincidunt felis nisl faucibus. Tortor pharetra turpis pulvinar proin urna odio lorem dui duis eget ve dictum hac, aptent. Nibh eni curae sodales nascetur. Urna mi ridiculus a lorem ut auctor.&lt;/p&gt;
-
-&lt;p&gt;Lorem curabitur feugiat platea tortor porttitor nullam proin sit. Ut congue cum, rhoncus a, suspendisse per, arcu. Ac erat aenean et ante risus at ante. Sapien torquent justo. Ante rhoncus urna, elit, justo est metus imperdiet lorem. Non morbi euismod nunc non eros nisi eget metus nulla. Eros, dis ipsum sem. Nunc nunc sit ultrices aliquet imperdiet amet posuere quam, ac sollicitudin. Commodo mi, et id ipsum eu turpis duis, malesuada praesent, risus a natoque ligula, sit vestibulum habitasse, ullamcorper. Erat tempus tempor bibendum fringilla bibendum id sed. Eu eni velit, fames, magnis mattis netus eu fringilla. Ve, tempus hac nibh dui morbi natoque vel, eros. Mattis. Orci ante est sollicitudin eu, dolor leo nibh. Viverra semper platea non ornare montes convallis torquent. Blandit. Dictum cursus vivamus montes sem mattis a.&lt;/p&gt;
-
-&lt;p&gt;Facilisis eni dis sem ac sollicitudin egestas, magna fusce mauris ut tellus rhoncus quis. At. Orci. Turpis feugiat nisi pulvinar parturient conubia eros urna felis. Ante. Faucibus nunc eget. Pulvinar imperdiet sollicitudin potenti porta hac non nec consectetuer et, risus nascetur nibh. Mollis. Duis euismod elit. Purus. Nibh. Dolor, ultricies libero interdum rhoncus placerat ve tempor. A, adipiscing est, magna adipiscing nascetur fusce elementum aliquet. Primis scelerisque risus tortor.&lt;/p&gt;
-
-&lt;p&gt;Lectus, in tellus viverra nisi. Tristique nisi litora. Curae, nascetur nunc facilisis morbi, ac neque hymenaeos congue neque egestas aliquet, tempus diam. Sagittis ante nibh imperdiet tellus, semper, dis sapien, sodales quam est. Diam a proin at magna ve id nec ac hymenaeos a netus quisque. Ac ipsum litora bibendum condimentum pulvinar enim luctus nec. Nulla nam duis penatibus sapien, volutpat justo consectetuer, phasellus vitae massa hac metus. Vivamus faucibus ligula, pede nam lacus adipiscing id, hymenaeos suspendisse. Ultrices mauris placerat erat cursus interdum aliquet. Venenatis tellus eros erat semper. Ve habitasse in, purus. Hymenaeos ipsum in litora phasellus eleifend, nibh eu netus scelerisque. Lacus penatibus mus vehicula donec per. Venenatis gravida, vel nunc amet, enim at. Consequat et, suspendisse pede, rutrum. Nam proin luctus felis, at neque mattis parturient. Inceptos laoreet rutrum dolor ve. Augue aliquam dui mi morbi. Faucibus. In tempus.&lt;/p&gt;
-
-&lt;p&gt;Malesuada parturient est donec ligula magnis neque scelerisque cum. Et porta id per ultricies fusce eu mollis. Ultricies scelerisque dui mattis purus netus. Justo dui amet, ac purus. Senectus risus phasellus eget fusce. Diam, ac pellentesque mauris in, massa litora nullam lacus mi class dictum. Semper rutrum etiam semper nam, ve erat penatibus. Natoque pellentesque lacinia vitae mi lorem sociis ut accumsan cum. Turpis faucibus elementum. Amet euismod a, semper ante, suspendisse nonummy, pellentesque rutrum class leo nulla. Sollicitudin elementum sapien vehicula nulla risus habitant proin sollicitudin, dictumst donec nunc dis feugiat ad, cursus. Commodo libero. Curae parturient ad, diam montes eu tempus posuere nisi nibh.&lt;/p&gt;
-
-&lt;p&gt;Ut, nec. Risus venenatis erat orci dapibus imperdiet eros vivamus luctus etiam. Tortor auctor enim cubilia commodo dapibus urna parturient nibh. Eros ante dui pulvinar potenti nulla etiam leo. Metus magnis. Elit aliquam justo mi cursus senectus amet auctor facilisis ac, ullamcorper nunc, ridiculus ac, tristique justo ultrices. Tortor ve placerat sociis, tempor justo adipiscing scelerisque sapien ut. Sagittis est natoque mus, ad elit. Turpis. Duis. Semper. Scelerisque mus mi curae pellentesque etiam ve montes iaculis pretium cubilia. Curabitur pede sed risus nam imperdiet, sociis.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Vel massa.</title>
-      <link>http://notes.kellegous.com/note/2015/10/vel-massa</link>
-      <pubDate>Fri, 02 Oct 2015 07:00:00 +0000</pubDate>
-      
-      <guid>http://notes.kellegous.com/note/2015/10/vel-massa</guid>
-      <description>&lt;p&gt;Enim laoreet. Nostra, diam. Mollis. A, sagittis duis. Id. Mi consectetuer quisque, netus quis at. Augue ve tortor elit, ut pellentesque varius mi maecenas dapibus, rhoncus semper. Tellus, vivamus, odio habitasse ac malesuada justo cras a. Interdum dui, purus aenean ut maecenas. Nam porta, hymenaeos facilisi et. Etiam ut nisi, molestie condimentum, interdum, blandit fusce. Sagittis magna metus cubilia faucibus ut suspendisse nunc. Id elementum neque vehicula vestibulum. At quam gravida et, ve.&lt;/p&gt;
-
-&lt;p&gt;Cursus ac tempus in volutpat tempus, gravida feugiat nisl ac cras eu. Quam mus morbi. Pharetra nibh eget placerat vestibulum. Inceptos. Mi lorem. Malesuada a, justo et donec ullamcorper facilisi, hendrerit nisl. Amet mus viverra vitae ve metus at ac. Mi, taciti a, egestas mi eleifend dolor montes, maecenas parturient. Ornare, inceptos diam nisi aliquet arcu, risus at phasellus et. Neque sed pede nisl dapibus justo nibh, turpis, at. Felis scelerisque maecenas, dignissim ve. Hac, mi egestas ad, nunc magna. A dictumst nisi est tincidunt purus sed nunc ut arcu iaculis ve enim mi. Suscipit in, rutrum porttitor mattis lorem vestibulum nisl habitasse volutpat in vitae tincidunt blandit felis. A ultrices amet nostra tincidunt dolor at morbi dignissim ullamcorper. Curae dictumst magna posuere eu. Eget ante fermentum fringilla elit scelerisque eni in. Nunc eget ac facilisi sociosqu, dolor.&lt;/p&gt;
+      <guid>http://notes.kellegous.com/note/2016/02/whats-the-deal-with-safevarargs</guid>
+      <description>
+
+&lt;p&gt;After a long absence, I&amp;rsquo;ve recently found myself back in the world of Java.
+Prior to the break, though, I worked in some kind of JVM language almost every
+day. When you are fully immersed, you begin to not see Java&amp;rsquo;s quirks. But if
+you take a break and come back, they are all (once again) front and center.&lt;/p&gt;
+
+&lt;p&gt;My most recent rediscovered quirk is the curious case of why a combination of
+generics and variadic methods requires the use of @SafeVarargs. I suspect the
+most confusing thing about this particular quirk is the wording of the common
+warning that is emitted. My suspicions are backed up by the number of
+stack overflow questions that reference warning directly. So let&amp;rsquo;s take a look
+at some code that causes the warning.&lt;/p&gt;
+
+&lt;pre class=&#34;prettyprint linenums&#34;&gt;&lt;code&gt;&lt;!--
+--&gt;static &lt;T&gt; List&lt;T&gt; toList(T... args) {
+  List&lt;T&gt; list = new ArrayList&lt;&gt;();
+  for (T arg : args) {
+    list.add(arg);
+  }
+  return list;
+}
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;And now let&amp;rsquo;s look at the warning that is emitted by the Java compiler:&lt;/p&gt;
+
+&lt;pre class=&#34;console&#34;&gt;
+warning: [unchecked] Possible heap pollution from parameterized vararg type T
+&lt;/pre&gt;
+
+&lt;p&gt;I think the most mysterious part of this warning is that it mentions the
+possibility of something that sounds truly disastrous, &amp;ldquo;heap pollution&amp;rdquo;. To
+which most people, I assume, respond with: ¯\_(ツ)_/¯&lt;/p&gt;
+
+&lt;h2 id=&#34;what-is-heap-pollution:686eb5ab52f3dcd856912dc8fdc5bc64&#34;&gt;What is heap pollution?&lt;/h2&gt;
+
+&lt;p&gt;Heap pollution really just means the type of the thing you have does not match
+the type indicated by the type system. You really shouldn&amp;rsquo;t be able to cause
+heap pollution in Java without doing something that emits a warning. Like here
+is a super simple form of heap pollution.&lt;/p&gt;
+
+&lt;pre class=&#34;prettyprint linenums&#34;&gt;&lt;code&gt;&lt;!--
+--&gt;List&lt;String&gt; a = new ArrayList&lt;&gt;();
+((List)a).add(4);
+System.out.println(a.get(0)); // ClassCastException!!!
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;As expected, though, line #2 causes a compiler warning. The big issue with a
+polluted heap is you will get a type error at the worst time, runtime.&lt;/p&gt;
+
+&lt;h2 id=&#34;how-to-use-varargs-to-pollute-the-heap:686eb5ab52f3dcd856912dc8fdc5bc64&#34;&gt;How to use varargs to pollute the heap&lt;/h2&gt;
+
+&lt;p&gt;The warning we saw above on variadic, generic methods suggests there is a way to
+write code that pollutes the heap without any other compiler warning. Indeed
+there is:&lt;/p&gt;
+
+&lt;pre class=&#34;prettyprint linenums&#34;&gt;&lt;code&gt;&lt;!--
+--&gt;static &lt;T&gt; List&lt;T&gt; makePollute(T... args) {
+    Object[] asArray = args;
+    asArray[0] = 42;
+}
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Notice that we do some unmistakably bad things here, but the compiler doesn&amp;rsquo;t
+offer any warnings. At runtime, though, this is likely to throw either an
+ArrayStoreException or a ClassCastException depending on the types involved.
+There are also cases where this code doesn&amp;rsquo;t show an exception at all.&lt;/p&gt;
+
+&lt;pre class=&#34;prettyprint linenums&#34;&gt;&lt;code&gt;&lt;!--
+--&gt;makePollute(1, 2, 3); // no exception
+makePollute(&#34;foo&#34;, &#34;bar&#34;); // ArrayStoreException
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;To understand why this happens, you have to look at what the java byte code looks
+like when you take into account &lt;a href=&#34;http://javapapers.com/core-java/type-erasure/&#34;&gt;type erasure&lt;/a&gt; and the fact that variadic
+methods are simply methods that take arrays as arguments.&lt;/p&gt;
+
+&lt;pre class=&#34;prettyprint linenums&#34;&gt;&lt;code&gt;&lt;!--
+--&gt;static void makePollute(Object[] args) {
+  Object[] asArray = args;
+  asArray[0] = 42;
+}
+
+public static void main(String[] args) {
+  Integer[] args1 = new Integer[3];
+  args1[0] = Integer.valueOf(1);
+  args1[1] = Integer.valueOf(2);
+  args1[2] = Integer.valueOf(3);
+  makePollute(args1);
+
+  String[] args2 = new String[2];
+  args2[0] = &#34;foo&#34;;
+  args2[1] = &#34;bar&#34;;
+  makePollute(args2); // asArray[0] = 42 won&#39;t work!
+}
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;It&amp;rsquo;s now a little clearer why you end up with an ArrayStoreException. I remember
+chatting with some of the folks who worked on Java and the JVM and they always
+bemoaned the fact that seemingly independent language features tended to interact
+with each other in so many unpleasant ways. I imagine this is exactly the kind
+of thing they had in mind.&lt;/p&gt;
 </description>
     </item>
     
