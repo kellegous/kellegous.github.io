@@ -10,7 +10,7 @@ day. When you are fully immersed, you begin to not see Java's quirks. But if
 you take a break and come back, they are all (once again) front and center.
 
 My most recent rediscovered quirk is the curious case of why a combination of
-generics and variadic methods requires the use of @SafeVarargs. I suspect the
+generics and variadic methods requires the use of [@SafeVarargs](https://docs.oracle.com/javase/7/docs/api/java/lang/SafeVarargs.html). I suspect the
 most confusing thing about this particular quirk is the wording of the common
 warning that is emitted. My suspicions are backed up by the number of
 stack overflow questions that reference warning directly. So let's take a look
@@ -67,7 +67,7 @@ there is:
 
 Notice that we do some unmistakably bad things here, but the compiler doesn't
 offer any warnings. At runtime, though, this is likely to throw either an
-ArrayStoreException or a ClassCastException depending on the types involved.
+[ArrayStoreException](https://docs.oracle.com/javase/7/docs/api/java/lang/ArrayStoreException.html) or a [ClassCastException](https://docs.oracle.com/javase/7/docs/api/java/lang/ClassCastException.html) depending on the types involved.
 There are also cases where this code doesn't show an exception at all.
 
 <pre class="prettyprint linenums"><code><!--
@@ -99,7 +99,8 @@ public static void main(String[] args) {
 }
 </code></pre>
 
-It's now a little clearer why you end up with an ArrayStoreException. I remember
+It's now a little clearer why you end up with an [ArrayStoreException](https://docs.oracle.com/javase/7/docs/api/java/lang/ArrayStoreException.html).
+I remember
 chatting with some of the folks who worked on Java and the JVM and they always
 bemoaned the fact that seemingly independent language features tended to interact
 with each other in so many unpleasant ways. I imagine this is exactly the kind
