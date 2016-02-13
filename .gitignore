@@ -6,3 +6,4 @@ tmp
 bin/*.pyc
 pub
 *.sublime-workspace
+env

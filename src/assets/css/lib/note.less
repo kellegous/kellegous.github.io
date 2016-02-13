@@ -98,10 +98,47 @@
         }
 
         pre {
+            font-family: "Source Code Pro", monospace;
             background-color: #eee;
             padding: 20px 10px;
             font-size: 18px;
             overflow-x: auto;
         }
+
+        code {
+            font-family: "Source Code Pro", monospace;
+        }
+
+        .console {
+          background-color: #444;
+          color: #ccc;
+        }
     }
+}
+
+pre.prettyprint {
+  border: none !important;
+
+  ol.linenums {
+    counter-reset: list;
+
+    > li {
+      list-style-type: none;
+      position: relative;
+      color: #999;
+    }
+
+    > li code {
+      display: inline-block;
+    }
+
+    > li::before {
+      counter-increment: list;
+      content: counter(list);
+      position: absolute;
+      top: 0px;
+      left: -1.8em;
+      color: #999;
+    }
+  }
 }

@@ -23,6 +23,9 @@ def clone(url, dst):
 def generate(src, dst):
 	return subprocess.call(['hugo', '--source=%s' % src, '--destination=%s' % dst]) == 0
 
+def make(src):
+	return subprocess.call(['make'], cwd = src) == 0
+
 def push(dir, msg):
 	if subprocess.call(['git', 'add', '-A', '.'], cwd=dir) != 0:
 		return False
@@ -44,6 +47,9 @@ def main():
 			return 1
 
 	if not clean(pubdir):
+		return 1
+
+	if not make(os.path.join(root, 'src')):
 		return 1
 
 	if not generate(os.path.join(root, 'src'), os.path.join(root, 'pub')):

@@ -1,0 +1,20 @@
+#!/bin/bash
+
+HERE=$( cd $( dirname $BASH_SOURCE ); pwd )
+
+if [ ! -d $HERE/env ]; then
+  pyvenv $HERE/env/notes
+fi
+
+if [ ! -z "$VIRTUAL_ENV" ]; then
+  NAME=$( basename "$VIRTUAL_ENV" )
+  if [ "$NAME" != "notes" ]; then
+    deactivate
+  fi
+fi
+
+if [ -z "$VIRTUAL_ENV" ]; then
+  source $HERE/env/notes/bin/activate
+fi
+
+pip -q install -r requirements.txt

@@ -4,9 +4,6 @@ import os
 import subprocess
 import sys
 
-def start_grunt(root):
-	return subprocess.Popen(['grunt', 'watch'], cwd=root)
-
 def start_hugo(root):
 	return subprocess.Popen([
 		'hugo',
@@ -14,18 +11,37 @@ def start_hugo(root):
 		'--source=src',
 		'--buildDrafts'], cwd=root)
 
+def check_env(root):
+	env = os.environ
+	if env.get('VIRTUAL_ENV') == os.path.join(root, 'env/notes'):
+		return
+	sys.stderr.write("Please run:\nsource setup\n")
+	sys.exit(1)
+
 def main():
 	root = os.path.abspath(
 		os.path.join(os.path.dirname(__file__), '..'))
+	check_env(root)
 
-	procs = [
-		start_hugo(root),
-		start_grunt(root),
-	]
+	import fsevents
+
+	def assets_did_change(event):
+		subprocess.call(['make'], cwd=os.path.join(root, 'src'))
 
 	try:
-		return max([proc.wait() for proc in procs])
+		procs = [
+			start_hugo(root),
+		]
+
+		obs = fsevents.Observer()
+		obs.schedule(fsevents.Stream(assets_did_change,
+			os.path.join(root, 'src/assets'),
+			file_events=True))
+		obs.start()
+		[p.wait() for p in procs]
+		obs.stop()
 	except KeyboardInterrupt:
+		obs.stop()
 		for proc in procs:
 			proc.kill()
 		return 0
