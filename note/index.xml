@@ -30,8 +30,8 @@ stack overflow questions that reference warning directly. So let&amp;rsquo;s tak
 at some code that causes the warning.&lt;/p&gt;
 
 &lt;pre class=&#34;prettyprint linenums&#34;&gt;&lt;code&gt;&lt;!--
---&gt;static &lt;T&gt; List&lt;T&gt; toList(T... args) {
-  List&lt;T&gt; list = new ArrayList&lt;&gt;();
+--&gt;static &amp;lt;T&amp;gt; List&amp;lt;T&amp;gt; toList(T... args) {
+  List&amp;lt;T&amp;gt; list = new ArrayList&lt;&gt;();
   for (T arg : args) {
     list.add(arg);
   }
@@ -57,7 +57,7 @@ heap pollution in Java without doing something that emits a warning. Like here
 is a super simple form of heap pollution.&lt;/p&gt;
 
 &lt;pre class=&#34;prettyprint linenums&#34;&gt;&lt;code&gt;&lt;!--
---&gt;List&lt;String&gt; a = new ArrayList&lt;&gt;();
+--&gt;List&amp;lt;String&amp;gt; a = new ArrayList&amp;lt;&amp;gt;();
 ((List)a).add(4);
 System.out.println(a.get(0)); // ClassCastException!!!
 &lt;/code&gt;&lt;/pre&gt;
@@ -72,7 +72,7 @@ write code that pollutes the heap without any other compiler warning. Indeed
 there is:&lt;/p&gt;
 
 &lt;pre class=&#34;prettyprint linenums&#34;&gt;&lt;code&gt;&lt;!--
---&gt;static &lt;T&gt; List&lt;T&gt; makePollute(T... args) {
+--&gt;static &amp;lt;T&amp;gt; List&amp;lt;T&amp;gt; makePollute(T... args) {
     Object[] asArray = args;
     asArray[0] = 42;
 }

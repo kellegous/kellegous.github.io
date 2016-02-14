@@ -67,8 +67,8 @@ stack overflow questions that reference warning directly. So let&rsquo;s take a 
 at some code that causes the warning.</p>
 
 <pre class="prettyprint linenums"><code><!--
--->static <T> List<T> toList(T... args) {
-  List<T> list = new ArrayList<>();
+-->static &lt;T&gt; List&lt;T&gt; toList(T... args) {
+  List&lt;T&gt; list = new ArrayList<>();
   for (T arg : args) {
     list.add(arg);
   }
@@ -94,7 +94,7 @@ heap pollution in Java without doing something that emits a warning. Like here
 is a super simple form of heap pollution.</p>
 
 <pre class="prettyprint linenums"><code><!--
--->List<String> a = new ArrayList<>();
+-->List&lt;String&gt; a = new ArrayList&lt;&gt;();
 ((List)a).add(4);
 System.out.println(a.get(0)); // ClassCastException!!!
 </code></pre>
@@ -109,7 +109,7 @@ write code that pollutes the heap without any other compiler warning. Indeed
 there is:</p>
 
 <pre class="prettyprint linenums"><code><!--
--->static <T> List<T> makePollute(T... args) {
+-->static &lt;T&gt; List&lt;T&gt; makePollute(T... args) {
     Object[] asArray = args;
     asArray[0] = 42;
 }
