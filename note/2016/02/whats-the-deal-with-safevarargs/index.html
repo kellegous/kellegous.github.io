@@ -45,6 +45,8 @@
 			<div>
 				
 				
+				<a class="next material-icons" href="http://notes.kellegous.com/note/2016/03/how-to-draw-hex-grids">navigate_next</a>
+				
 			</div>
 		</div>
 		<div class="info">
@@ -69,7 +71,7 @@ at some code that causes the warning.</p>
 
 <pre class="prettyprint linenums"><code><!--
 -->static &lt;T&gt; List&lt;T&gt; toList(T... args) {
-  List&lt;T&gt; list = new ArrayList<>();
+  List&lt;T&gt; list = new ArrayList&lt;&gt;();
   for (T arg : args) {
     list.add(arg);
   }

@@ -6,8 +6,102 @@
     <description>Recent content on Notes</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 13 Feb 2016 09:19:58 -0500</lastBuildDate>
+    <lastBuildDate>Sun, 06 Mar 2016 20:29:25 -0500</lastBuildDate>
     <atom:link href="http://notes.kellegous.com/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>How to Draw Hex Grids</title>
+      <link>http://notes.kellegous.com/note/2016/03/how-to-draw-hex-grids</link>
+      <pubDate>Sun, 06 Mar 2016 20:29:25 -0500</pubDate>
+      
+      <guid>http://notes.kellegous.com/note/2016/03/how-to-draw-hex-grids</guid>
+      <description>
+
+&lt;p&gt;About every six months, I face the exact same task. I need to draw some kind of hex-based grid. It&amp;rsquo;s not that surprising that it keeps coming up, hex grids are just aesthetically amazing and also relatively simple. But everytime this comes up, I find myself scribbling formulas in a notebook to remember what it was I did last time to make the associated code somewhat sane. So these are those recurring notes.&lt;/p&gt;
+
+&lt;h2 id=&#34;drawing-a-hexagon:e89913c8ad2f819575e453cdc9a0f6c3&#34;&gt;Drawing a Hexagon&lt;/h2&gt;
+
+&lt;p&gt;First of all, let&amp;rsquo;s talk about the basics. How do you draw a single hexagon?&lt;/p&gt;
+
+&lt;p&gt;&lt;object data=&#34;/note/hex-grid/a.svg&#34; type=&#34;image/svg+xml&#34;&gt;
+&lt;/object&gt;&lt;/p&gt;
+
+&lt;p&gt;In python, this might look like this:&lt;/p&gt;
+
+&lt;pre class=&#34;prettyprint linenums&#34;&gt;&lt;code&gt;&lt;!--
+--&gt;def draw_hexagon(cx, cy, r):
+    a = r*math.cos(math.pi/3)
+    b = r*math.sin(math.pi/3)
+    beginpath(cx + r, cy)
+    lineto(cx + a, cy + b)
+    lineto(cx - a, cy + b)
+    lineto(cx - r, cy)
+    lineto(cx - a, cy - b)
+    lineto(cx + a, cy - b)
+    closepath()
+    endpath()
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Of course, this is a hexagon specific version of the following code which draws a polygon with n vertices on the circumference of a circle.&lt;/p&gt;
+
+&lt;pre class=&#34;prettyprint linenums&#34;&gt;&lt;code&gt;&lt;!--
+--&gt;def draw_polygon(cx, cy, r, n):
+    beginpath(cx + r, cy)
+    for i in range(1, n):
+        lineto(cx + r * math.cos(i * 2 * math.pi / n),
+               cy + r * math.sin(i * 2 * math.pi / n))
+    closepath()
+    endpath()
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;But the interesting bit is drawing a grid of hexagons. You know, like a honey comb. That&amp;rsquo;s the thing I always forget.&lt;/p&gt;
+
+&lt;h2 id=&#34;drawing-a-grid-of-hexagons:e89913c8ad2f819575e453cdc9a0f6c3&#34;&gt;Drawing a Grid of Hexagons&lt;/h2&gt;
+
+&lt;p&gt;If you want to know everything about hexagonal grids, read &lt;a href=&#34;http://www.redblobgames.com/grids/hexagons/&#34;&gt;Amit Patel&amp;rsquo;s amazing article&lt;/a&gt;. By the way, I once chatted with Amit over email at Google because he watched everyone&amp;rsquo;s snippets for the terms &amp;ldquo;space elevator&amp;rdquo;. Anyway, I&amp;rsquo;m not trying to be exhaustive as Amit here. I&amp;rsquo;m just trying to document the method I often use to draw a hexagonal grid.&lt;/p&gt;
+
+&lt;p&gt;The most imporant part is finding a useful unit of repetition. You know, something you can draw repeatedly using a plain ole&amp;rsquo; rectangular grid. Well, here&amp;rsquo;s something:&lt;/p&gt;
+
+&lt;p&gt;&lt;object data=&#34;/note/hex-grid/repeat.svg&#34; type=&#34;image/svg+xml&#34;&gt;
+&lt;/object&gt;&lt;/p&gt;
+
+&lt;p&gt;As you can tell, &lt;code&gt;a&lt;/code&gt; and &lt;code&gt;b&lt;/code&gt; are the coordinates upon which the grid is built. If we simply divide the space up so that we can repeat these two offset hexagons, things should work out. It kind of looks like this.&lt;/p&gt;
+
+&lt;pre class=&#34;prettyprint linenums&#34;&gt;&lt;code&gt;&lt;!--
+--&gt;def draw_hexagon(cx, cy, r):
+    a = r*math.cos(math.pi/3)
+    b = r*math.sin(math.pi/3)
+    beginpath(cx + r, cy)
+    lineto(cx + a, cy + b)
+    lineto(cx - a, cy + b)
+    lineto(cx - r, cy)
+    lineto(cx - a, cy - b)
+    lineto(cx + a, cy - b)
+    closepath()
+    endpath()
+    
+def draw_grid(w, h, n = 20):
+    # the size of the repeatable grid
+    dx = w / n    
+    # find the value for a (dx is 6 a&#39;s)
+    a = dx / 6.0
+    r = 2 * a
+    # find the value for b
+    b = r * math.sin(math.pi/3.0)
+    # number of repeatable grids vertically
+    dy = b*2
+    
+    ny = int(math.ceil(h / dy)) + 1
+
+    for j in range(ny):
+        for i in range(n+1):
+            draw_hexagon(i*dx, j*dy, r)
+            draw_hexagon(i*dx + 3*a, j*dy + b, r)
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;That&amp;rsquo;s it.&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>What&#39;s the deal with SafeVarargs?</title>
@@ -31,7 +125,7 @@ at some code that causes the warning.&lt;/p&gt;
 
 &lt;pre class=&#34;prettyprint linenums&#34;&gt;&lt;code&gt;&lt;!--
 --&gt;static &amp;lt;T&amp;gt; List&amp;lt;T&amp;gt; toList(T... args) {
-  List&amp;lt;T&amp;gt; list = new ArrayList&lt;&gt;();
+  List&amp;lt;T&amp;gt; list = new ArrayList&amp;lt;&amp;gt;();
   for (T arg : args) {
     list.add(arg);
   }
