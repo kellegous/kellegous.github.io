@@ -68,7 +68,7 @@ As you can tell, <code>a</code> and <code>b</code> are the coordinates upon whic
     closepath()
     endpath()
     
-def draw_grid(w, h, n = 20):
+def draw_grid(w, h, n=20):
     # the size of the repeatable grid
     dx = w / n    
     # find the value for a (dx is 6 a's)
