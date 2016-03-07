@@ -18,7 +18,7 @@ at some code that causes the warning.
 
 <pre class="prettyprint linenums"><code><!--
 -->static &lt;T&gt; List&lt;T&gt; toList(T... args) {
-  List&lt;T&gt; list = new ArrayList<>();
+  List&lt;T&gt; list = new ArrayList&lt;&gt;();
   for (T arg : args) {
     list.add(arg);
   }
