@@ -11,7 +11,7 @@ About every six months, I face the exact same task. I need to draw some kind of 
 
 First of all, let's talk about the basics. How do you draw a single hexagon?
 
-<object data="/note/hex-grid/a.svg" type="image/svg+xml">
+<object data="/note/hex-grid/a.svg" type="image/svg+xml" class="svg">
 </object>
 
 In python, this might look like this:
@@ -50,7 +50,7 @@ If you want to know everything about hexagonal grids, read [Amit Patel's amazing
 
 The most imporant part is finding a useful unit of repetition. You know, something you can draw repeatedly using a plain ole' rectangular grid. Well, here's something:
 
-<object data="/note/hex-grid/repeat.svg" type="image/svg+xml">
+<object data="/note/hex-grid/repeat.svg" type="image/svg+xml" class="svg">
 </object>
 
 As you can tell, <code>a</code> and <code>b</code> are the coordinates upon which the grid is built. If we simply divide the space up so that we can repeat these two offset hexagons, things should work out. It kind of looks like this.
