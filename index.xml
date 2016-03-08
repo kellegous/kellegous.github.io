@@ -23,7 +23,7 @@
 
 &lt;p&gt;First of all, let&amp;rsquo;s talk about the basics. How do you draw a single hexagon?&lt;/p&gt;
 
-&lt;p&gt;&lt;object data=&#34;/note/hex-grid/a.svg&#34; type=&#34;image/svg+xml&#34;&gt;
+&lt;p&gt;&lt;object data=&#34;/note/hex-grid/a.svg&#34; type=&#34;image/svg+xml&#34; class=&#34;svg&#34;&gt;
 &lt;/object&gt;&lt;/p&gt;
 
 &lt;p&gt;In python, this might look like this:&lt;/p&gt;
@@ -62,7 +62,7 @@
 
 &lt;p&gt;The most imporant part is finding a useful unit of repetition. You know, something you can draw repeatedly using a plain ole&amp;rsquo; rectangular grid. Well, here&amp;rsquo;s something:&lt;/p&gt;
 
-&lt;p&gt;&lt;object data=&#34;/note/hex-grid/repeat.svg&#34; type=&#34;image/svg+xml&#34;&gt;
+&lt;p&gt;&lt;object data=&#34;/note/hex-grid/repeat.svg&#34; type=&#34;image/svg+xml&#34; class=&#34;svg&#34;&gt;
 &lt;/object&gt;&lt;/p&gt;
 
 &lt;p&gt;As you can tell, &lt;code&gt;a&lt;/code&gt; and &lt;code&gt;b&lt;/code&gt; are the coordinates upon which the grid is built. If we simply divide the space up so that we can repeat these two offset hexagons, things should work out. It kind of looks like this.&lt;/p&gt;
