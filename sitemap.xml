@@ -3,8 +3,13 @@
   
   <url>
     <loc>http://notes.kellegous.com/</loc>
-    <lastmod>2016-03-06T20:29:25-05:00</lastmod>
+    <lastmod>2016-03-20T16:55:29-04:00</lastmod>
     <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://notes.kellegous.com/note/2016/03/kubernetes-on-vagrant-making-shit-work</loc>
+    <lastmod>2016-03-20T16:55:29-04:00</lastmod>
   </url>
   
   <url>

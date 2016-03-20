@@ -39,6 +39,93 @@
 	<div class="head with-shadow"
 			style="
 				
+				background-color: #2A2C39;"
+			data-width="800"
+			data-height="200" >
+		<div class="info">
+			<div class="time">
+				<a href="http://notes.kellegous.com/note/2016/03/kubernetes-on-vagrant-making-shit-work">Mar 20, 2016</a>
+			</div>
+			<h1>
+				<a href="http://notes.kellegous.com/note/2016/03/kubernetes-on-vagrant-making-shit-work">Kubernetes on Vagrant: Making shit work</a>
+			</h1>
+		</div>
+	</div>
+	<div class="body">
+		
+
+<p>For us xooglers, <a href="http://kubernetes.io/">Kubernetes</a> is the closest thing in the outside world to <a href="http://static.googleusercontent.com/media/research.google.com/en//pubs/archive/43438.pdf">Borg</a>. I don&rsquo;t have any immediate need to use it, but twice now I have decided it would be a fun thing to tinker with. Both times, I&rsquo;ve run into issues with the getting started guides. This post is to note the work-arounds for the problem I encountered.</p>
+
+<p>I&rsquo;m pretty sure that if I were willing to pay Google some money to learn about Kubernetes on <a href="http://kubernetes.io/docs/hellonode/">Google Container Engine</a>, it would all work just flawlessly. Unfortunately, I&rsquo;m cheap and I want to learn about Kubernetes using <a href="http://kubernetes.io/docs/getting-started-guides/vagrant/">Vagrant on my laptop</a>. Unsurprisingly, this getting started guide is woefully incomplete. It has you create a replicated nginx setup where you cannot even reach any of the 3 replicas and then it closes with what I take to be a sarcastic, &ldquo;Congratulations!&rdquo;</p>
+
+<p>So this post shows you how you can actually see the nginx welcome pages and thus prove to yourself that you managed to run nginx beyond just trusting what the Kubernetes tools tell you. Just to be clear, though, this post doesn&rsquo;t try to replace <a href="http://kubernetes.io/docs/getting-started-guides/vagrant/">&ldquo;Running Kubernetes Locally with Vagrant&rdquo;</a>. I&rsquo;m just merely filling in one big information hole in that guide, which is how to connect to the nginx servers that you just heroically started in container-space. To make this more helpful to future me, though, I&rsquo;m going to include all the steps. If you are not me, you should start with the original guide and come back to these steps. So here goes:</p>
+
+<h2 id="running-nginx-in-kubernetes-locally-with-vagrant:198398dc3089a3be7cf67c252bb2c6a1">Running nginx in Kubernetes Locally with Vagrant</h2>
+
+<h3 id="1-create-a-kubernetes-cluster-with-a-master-and-a-single-node:198398dc3089a3be7cf67c252bb2c6a1">1. Create a Kubernetes cluster with a master and a single node.</h3>
+
+<pre class="console">
+$ export KUBERNETES_PROVIDER=vagrant
+$ curl -sS https://get.k8s.io | bash
+</pre>
+
+<h3 id="2-start-an-nginx-deployment-with-3-replicas:198398dc3089a3be7cf67c252bb2c6a1">2. Start an nginx deployment with 3 replicas.</h3>
+
+<pre class="console">
+$ ./cluster/kubectl.sh run my-nginx --image=nginx --replicas=3 --port=80
+</pre>
+
+<p>Unfortunately, this is where the original guide stops. You can see that nginx is running using kubectl, but you have no way to use your browser to load the default welcome page. I thought at first that the authors were just lazy and I tried to steal commands from the non-vagrant guides but I was unable to make it work. Here&rsquo;s the command that you would expect to use next:</p>
+
+<pre class="console">
+$ ./cluster/kubectl.sh expose deployment my-nginx --port=80 --type=LoadBalancer
+</pre>
+
+<p>This command claims to succeed, but it&rsquo;s actually doing nothing at all. I didn&rsquo;t know this until I found a <a href="https://github.com/coreos/coreos-kubernetes/issues/60">set</a> <a href="https://github.com/kubernetes/kubernetes/issues/18884">of</a> <a href="https://github.com/kubernetes/kubernetes/issues/9776">issues</a> that revealed that asking for a LoadBalancer in a Vagrant environment was essentially a no-op. It claims to succeed, but you just don&rsquo;t get a load balancer.</p>
+
+<p>The solution is to replace <code>--type=LoadBalancer</code> with <code>--type=NodePort</code>. NodePort is not as cool, it just means that instead of getting a real external IP address, a port will be allocated on each of your nodes (we only have a single node in this example). While this is convoluted, it will allow us to reach nginx running in our Kubernetes cluster.</p>
+
+<h3 id="3-exposing-nginx-as-a-service:198398dc3089a3be7cf67c252bb2c6a1">3. Exposing nginx as a service</h3>
+
+<pre class="console">
+$ ./cluster/kubectl.sh expose deployment my-nginx --type=NodePort
+</pre>
+
+<p>Now, we need to know a couple of other bits of information (1) the IP address of our node and (2) the port that our service got mapped to.</p>
+
+<p>Let&rsquo;s find the IP Address of our node:</p>
+
+<pre class="console">
+$ ./cluster/kubectl.sh describe nodes | grep Address
+Addresses:    <strong>10.245.1.3</strong>,10.245.1.3
+</pre>
+
+<p>The IP Address for our node is <strong>10.245.1.3</strong>.</p>
+
+<p>And let&rsquo;s find the &ldquo;NodePort&rdquo;</p>
+
+<pre class="console">
+$ ./cluster/kubectl.sh describe services | grep ^NodePort
+NodePort:    &lt;unset&gt;    <strong>30505</strong>/TCP
+</pre>
+
+<p>And the NodePort is <strong>30505</strong>.</p>
+
+<p>So we can reach nginx in the browser by visiting the address: <strong>http:<i></i>//10.245.1.3:30505/</strong>.</p>
+
+<p><img src="/img/kubernetes-vagrant/nginx.png"></p>
+
+<p>You can see why that is a lot less satisfying than running this in the cloud and getting a real IP Address, but for those who are excessively cheap like I am, <code>http://10.245.1.3:30505</code> will do just fine.</p>
+
+	</div>
+</div>
+	</div>
+
+	<div>
+	<div class="note">
+	<div class="head with-shadow"
+			style="
+				
 				background-image:url('/note/hex-grid/hdr.png');
 				
 				background-color: #2A2C39;"
